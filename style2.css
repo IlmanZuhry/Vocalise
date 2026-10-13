@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background: #EAF5F7;
+    background: #eaeaea;
 }
 
 .login-container {
@@ -13,7 +13,7 @@ body {
 
 .login-left {
     width: 50%;
-    background: #102A43;
+    background: #10204f;
     padding: 50px;
     position: relative;
     color: white;
@@ -45,7 +45,7 @@ body {
     width: 350px;
     height: 350px;
     border-radius: 50%;
-    border: 8px solid #64C7D4;
+    border: 8px solid #B9915F;
     display: flex;
     align-items: center;
     margin-top: -60px;
@@ -78,7 +78,7 @@ body {
     position: absolute;
     width: 220px;
     height: 220px;
-    background: #64C7D4;
+    background: #B9915F;
     border-radius: 50%;
     z-index: 1;
 
@@ -144,7 +144,7 @@ form input {
 }
 
 form input:focus {
-    border-color: #102A43;
+    border-color: #10204f;
     background: #ffffff;
     box-shadow: 0 0 0 3px rgba(16, 32, 79, 0.1);
 }
@@ -175,7 +175,7 @@ form input:focus {
     padding: 12px;
     border-radius: 25px;
     border: none;
-    background: #102A43;
+    background: #0f1f4d;
     color: white;
     font-size: 16px;
     font-weight: 600;
@@ -191,7 +191,7 @@ form input:focus {
 }
 
 .register-text a {
-    color: #102A43;
+    color: #0f1f4d;
 }
 
 .brand {
@@ -217,7 +217,7 @@ form input:focus {
 }
 
 .brand-text .lab {
-    color: #64C7D4;
+    color: #B9915F;
 }
 
 
@@ -266,9 +266,9 @@ form input:focus {
 
 .eye-toggle {
     position: absolute;
-    right: 18px;
+    right: 0px;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-75%);
     width: 22px;
     height: 22px;
     cursor: pointer;

@@ -184,7 +184,7 @@ $posts = $app->getCommunityPosts();
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      background: #64C7D4;
+      background: #d2a06b;
     }
 
     .post-avatar-default svg {
@@ -214,7 +214,7 @@ $posts = $app->getCommunityPosts();
       font-size: 15px;
       line-height: 1.5;
       color: #434445;
-      background-color: #EAF5F7;
+      background-color: #f5f5f5;
       border-radius: 12px;
       padding: 20px;
       white-space: pre-wrap;
@@ -522,7 +522,7 @@ $posts = $app->getCommunityPosts();
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      background: #64C7D4;
+      background: #d2a06b;
       flex-shrink: 0;
     }
 

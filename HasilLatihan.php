@@ -71,7 +71,7 @@ function scoreColor($score) {
       font-size: 40px;
       line-height: 1.1;
       margin-bottom: 8px;
-      background: linear-gradient(135deg, #102A43 0%, #64C7D4 100%);
+      background: linear-gradient(135deg, #10204f 0%, #d2a06b 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -93,7 +93,7 @@ function scoreColor($score) {
       gap: 8px;
     }
 
-    .btn-muted { background: #EAF5F7; color: #344054; }
+    .btn-muted { background: #eef2f7; color: #344054; }
 
     .stats-grid {
       display: grid;
@@ -132,13 +132,13 @@ function scoreColor($score) {
     }
 
     .stat-card strong {
-      color: #102A43;
+      color: #10204f;
       font-size: 36px;
       position: relative;
       z-index: 1;
     }
 
-    .stat-card.accent strong { color: #64C7D4; }
+    .stat-card.accent strong { color: #d2a06b; }
 
     .filter-tabs {
       display: flex;
@@ -160,13 +160,13 @@ function scoreColor($score) {
     }
 
     .filter-tab.active {
-      border-color: #64C7D4;
-      background: #EAF5F7;
-      color: #102A43;
+      border-color: #d2a06b;
+      background: #fffaf3;
+      color: #10204f;
     }
 
     .filter-tab:hover {
-      border-color: #64C7D4;
+      border-color: #d2a06b;
     }
 
     .results-list {
@@ -199,7 +199,7 @@ function scoreColor($score) {
     }
 
     .result-card-header h3 {
-      color: #102A43;
+      color: #10204f;
       font-size: 20px;
       margin: 0 0 6px;
     }
@@ -217,7 +217,7 @@ function scoreColor($score) {
       padding: 7px 12px;
       font-size: 12px;
       font-weight: 800;
-      background: #EAF5F7;
+      background: #eef2f7;
       color: #344054;
     }
 
@@ -227,7 +227,7 @@ function scoreColor($score) {
     .badge-mentor { background: #f4f3ff; color: #5925dc; }
 
     .status-reviewed { border-left: 4px solid #027a48; }
-    .status-pending { border-left: 4px solid #64C7D4; }
+    .status-pending { border-left: 4px solid #d2a06b; }
 
     .result-card-body {
       padding: 0 24px 22px;
@@ -267,7 +267,7 @@ function scoreColor($score) {
       display: flex;
       align-items: center;
       gap: 18px;
-      background: #102A43;
+      background: #10204f;
       border-radius: 18px;
       padding: 22px 26px;
       margin-bottom: 18px;
@@ -293,7 +293,7 @@ function scoreColor($score) {
       display: flex;
       align-items: center;
       justify-content: center;
-      background: conic-gradient(#64C7D4 var(--score, 0%), #245B7A 0);
+      background: conic-gradient(#d2a06b var(--score, 0%), #1c3068 0);
       position: relative;
       flex-shrink: 0;
       z-index: 1;
@@ -305,7 +305,7 @@ function scoreColor($score) {
       width: 68px;
       height: 68px;
       border-radius: 50%;
-      background: #102A43;
+      background: #10204f;
     }
 
     .score-ring strong {
@@ -322,7 +322,7 @@ function scoreColor($score) {
 
     .final-score-text strong {
       display: block;
-      color: #64C7D4;
+      color: #d2a06b;
       font-size: 13px;
       text-transform: uppercase;
       letter-spacing: 0.5px;
@@ -350,7 +350,7 @@ function scoreColor($score) {
     }
 
     .feedback-box h4 {
-      color: #102A43;
+      color: #10204f;
       font-size: 14px;
       margin: 0 0 10px;
     }
@@ -364,10 +364,10 @@ function scoreColor($score) {
     }
 
     .feedback-full {
-      border: 1px solid #CDE5EA;
+      border: 1px solid #f2d7b8;
       border-radius: 14px;
       padding: 16px;
-      background: #EAF5F7;
+      background: #fffaf3;
     }
 
     .feedback-full h4 {
@@ -389,8 +389,8 @@ function scoreColor($score) {
       align-items: center;
       gap: 14px;
       padding: 20px 24px;
-      background: #EAF5F7;
-      border: 1px solid #CDE5EA;
+      background: #fffaf3;
+      border: 1px solid #f2d7b8;
       border-radius: 14px;
       color: #9a5600;
       font-weight: 700;

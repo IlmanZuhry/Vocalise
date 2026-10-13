@@ -131,7 +131,7 @@ $ebooks = $app->getEbooks($search_query);
             border-radius: 20px;
             padding: 12px 0;
             font-size: 16px;
-            background-color: #64C7D4;
+            background-color: #d2a06b;
             color: white;
             border: none;
             cursor: pointer;

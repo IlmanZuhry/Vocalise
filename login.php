@@ -43,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             display: inline-flex;
             align-items: center;
             gap: 8px;
-            color: #245B7A;
+            color: #1c407a;
             text-decoration: none;
             font-weight: 600;
             font-size: 16px;
@@ -114,7 +114,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <div class="password-wrapper">
                         <input id="password-input" type="password" name="password" placeholder="Ketik kata sandi anda" required>
 
-                        <img class="eye-toggle" id="toggle-eye" src="icon/pw.svg">
+                        <img class="eye-toggle" id="toggle-eye" src="icon/pw.svg" style="width:32px; height:32px;">
                     </div>
 
                     <a class="lost-password" href="forgot_password.php">Lupa kata sandi?</a>

@@ -23,7 +23,7 @@ if (!$mentor) {
 
         .profile-hero {
             width: 100%;
-            background: #102A43;
+            background: #0e1e4d;
             padding: 72px 40px;
             border-radius: 20px;
             display: flex;
@@ -67,8 +67,8 @@ if (!$mentor) {
             width: 200px;
             height: 200px;
             border-radius: 50%;
-            border: 5px solid #64C7D4;
-            background: #64C7D4;
+            border: 5px solid #d2a06b;
+            background: #d2a06b;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -84,7 +84,7 @@ if (!$mentor) {
 
         .profile-username {
             font-size: 22px;
-            color: #64C7D4;
+            color: #d2a06b;
             margin-bottom: 10px;
         }
 

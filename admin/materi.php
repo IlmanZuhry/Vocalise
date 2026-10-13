@@ -218,7 +218,7 @@ $materials = $app->getMaterials();
         }
 
         .field input:focus, .field select:focus, .field textarea:focus {
-            border-color: #245B7A;
+            border-color: #1c407a;
             box-shadow: 0 0 0 3px rgb(28 64 122 / 0.14);
         }
 
@@ -291,7 +291,7 @@ $materials = $app->getMaterials();
         .warna-lavender { background-color: #a78bfa; color: white; }
 
         .materi-item h2 {
-            color: #102A43;
+            color: #10204f;
             font-size: 20px;
             margin: 0 0 6px;
         }
@@ -314,8 +314,8 @@ $materials = $app->getMaterials();
         }
 
         .admin-button.secondary {
-            background: #EAF5F7;
-            color: #102A43;
+            background: #eef2f7;
+            color: #10204f;
         }
 
         .admin-button.danger {
