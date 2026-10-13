@@ -73,7 +73,7 @@ $currentUser = $app->getCurrentUser();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TALKLAB - Profil</title>
+    <title>Vocalise - Profil</title>
     <?php include 'includes/layout_css.php'; ?>
     <style>
         .ornamen-left {

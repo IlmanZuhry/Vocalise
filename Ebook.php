@@ -11,7 +11,7 @@ $ebooks = $app->getEbooks($search_query);
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TALKLAB - E-Book</title>
+    <title>Vocalise - E-Book</title>
     <link rel="stylesheet" href="style.css" />
     <?php include 'includes/layout_css.php'; ?>
     <style>

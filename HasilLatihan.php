@@ -47,7 +47,7 @@ function scoreColor($score) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TALKLAB - Hasil Latihan</title>
+  <title>Vocalise - Hasil Latihan</title>
   <?php include 'includes/layout_css.php'; ?>
   <style>
     body { background: #f7f7fc; }
