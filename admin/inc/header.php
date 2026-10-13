@@ -38,7 +38,7 @@ if (!$mentor) {
     }
 
     .profile-menu-toggle:focus-visible {
-        outline: 3px solid rgba(210, 160, 107, 0.75);
+        outline: 3px solid rgba(100, 199, 212, 0.75);
         outline-offset: 3px;
     }
 
@@ -97,7 +97,7 @@ if (!$mentor) {
 
     .profile-dropdown-item:hover {
         background: #f5f2ee;
-        color: #0e1e4d;
+        color: #102A43;
     }
 
     .profile-dropdown-item.logout {
@@ -137,7 +137,7 @@ if (!$mentor) {
     .logout-confirm-box h3 {
         margin: 0 0 8px;
         font-size: 22px;
-        color: #0e1e4d;
+        color: #102A43;
     }
 
     .logout-confirm-box p {
@@ -165,7 +165,7 @@ if (!$mentor) {
 
     .btn-cancel-logout {
         background: #eef0f4;
-        color: #0e1e4d;
+        color: #102A43;
     }
 
     .btn-confirm-logout {
@@ -187,7 +187,7 @@ if (!$mentor) {
 
         <div class="profile-menu-wrap">
             <button type="button" class="profile-menu-toggle" data-profile-menu-toggle aria-expanded="false" aria-haspopup="true">
-                <div class="avatar" style="background:#d2a06b;display:flex;align-items:center;justify-content:center;">
+                <div class="avatar" style="background:#64C7D4;display:flex;align-items:center;justify-content:center;">
                     <svg viewBox="0 0 24 24" width="30" height="30"><path fill="white" d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
                 </div>
 

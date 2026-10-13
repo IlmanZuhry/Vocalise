@@ -137,14 +137,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <div class="password-wrapper">
                         <input id="password-input" type="password" name="password"
                                placeholder="Minimal 6 karakter" required>
-                        <img class="eye-toggle" id="toggle-eye" src="icon/pw.svg" style="width:32px; height:32px;">
+                        <img class="eye-toggle" id="toggle-eye" src="icon/pw.svg">
                     </div>
 
                     <label>Ketik ulang Kata Sandi</label>
                     <div class="password-wrapper">
                         <input id="password-input2" type="password" name="konfirmasi"
                                placeholder="Ulangi kata sandi anda" required>
-                        <img class="eye-toggle" id="toggle-eye2" src="icon/pw.svg" style="width:32px; height:32px;">
+                        <img class="eye-toggle" id="toggle-eye2" src="icon/pw.svg">
                     </div>
 
                     <button type="submit" class="btn-login">Daftar</button>

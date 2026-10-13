@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background: #eaeaea;
+    background: #EAF5F7;
 }
 
 .login-container {
@@ -14,7 +14,7 @@ body {
 /* PANEL KIRI */
 .login-left {
     width: 50%;
-    background: #10204f;
+    background: #102A43;
     padding: 50px;
     position: relative;
     color: white;
@@ -46,7 +46,7 @@ body {
     width: 350px;
     height: 350px;
     border-radius: 50%;
-    border: 8px solid #B9915F;
+    border: 8px solid #64C7D4;
     display: flex;
     align-items: center;
     margin-top: -60px;
@@ -79,7 +79,7 @@ body {
     position: absolute;
     width: 220px;
     height: 220px;
-    background: #B9915F;
+    background: #64C7D4;
     border-radius: 50%;
 
 }
@@ -144,7 +144,7 @@ form input {
 }
 
 form input:focus {
-    border-color: #10204f;
+    border-color: #102A43;
     background: #ffffff;
     box-shadow: 0 0 0 3px rgba(16, 32, 79, 0.1);
 }
@@ -175,7 +175,7 @@ form input:focus {
     padding: 12px;
     border-radius: 25px;
     border: none;
-    background: #0f1f4d;
+    background: #102A43;
     color: white;
     font-size: 16px;
     font-weight: 600;
@@ -191,7 +191,7 @@ form input:focus {
 }
 
 .register-text a {
-    color: #0f1f4d;
+    color: #102A43;
 }
 
 .brand {
@@ -215,7 +215,7 @@ form input:focus {
 }
 
 .brand-text .lab {
-    color: #B9915F;
+    color: #64C7D4;
 }
 
 
@@ -262,9 +262,9 @@ form input:focus {
 
 .eye-toggle {
     position: absolute;
-    right: 0px;
+    right: 18px;
     top: 50%;
-    transform: translateY(-75%);
+    transform: translateY(-50%);
     width: 22px;
     height: 22px;
     cursor: pointer;

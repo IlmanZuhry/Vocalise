@@ -24,10 +24,10 @@ $completedVideoIds = $currentUser ? $app->getCompletedVideoIds($currentUser['Id_
     <?php include 'includes/layout_css.php'; ?>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; font-family: system-ui, sans-serif; }
-        body { display: flex; background: #f5f5f5; }
-        .back-link { display: inline-flex; align-items: center; gap: 8px; color: #1c407a; text-decoration: none; font-weight: 600; margin-bottom: 16px; font-size: 16px; transition: color 0.2s; }
+        body { display: flex; background: #EAF5F7; }
+        .back-link { display: inline-flex; align-items: center; gap: 8px; color: #245B7A; text-decoration: none; font-weight: 600; margin-bottom: 16px; font-size: 16px; transition: color 0.2s; }
         .back-link:hover { color: #15305c; text-decoration: underline; }
-        .course-header { font-size: 28px; font-weight: bold; color: #1c407a; margin-bottom: 24px; }
+        .course-header { font-size: 28px; font-weight: bold; color: #245B7A; margin-bottom: 24px; }
         .course-container { display: flex; gap: 32px; background: #fff; border-radius: 12px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); padding: 32px; min-height: 600px; }
         
         .course-sidebar { width: 320px; border-right: 1px solid #eee; padding-right: 24px; }
@@ -35,13 +35,13 @@ $completedVideoIds = $currentUser ? $app->getCompletedVideoIds($currentUser['Id_
         .course-menu-list { list-style: none; padding: 0; margin: 0; }
         .course-menu-item { padding: 14px 12px; display: flex; justify-content: space-between; align-items: center; color: #555; cursor: pointer; font-size: 15px; border-radius: 8px; transition: background-color 0.2s; margin-bottom: 4px; }
         .course-menu-item:hover { background-color: #f8f9fa; }
-        .course-menu-item.active { background-color: #eef3fc; color: #1c407a; font-weight: 600; }
+        .course-menu-item.active { background-color: #EAF5F7; color: #245B7A; font-weight: 600; }
         .course-menu-icon { display: flex; align-items: center; gap: 12px; }
         .course-check-icon { color: #28a745; font-weight: bold; display: none; }
         .course-menu-item.completed .course-check-icon { display: block; }
         
         .course-content { flex: 1; display: flex; flex-direction: column; }
-        .video-player-placeholder { width: 100%; aspect-ratio: 16 / 9; background: #f0f0f0; border-radius: 12px; display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; margin-bottom: 24px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); }
+        .video-player-placeholder { width: 100%; aspect-ratio: 16 / 9; background: #EAF5F7; border-radius: 12px; display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; margin-bottom: 24px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); }
         .script-section { flex: 1; }
         .script-title { font-weight: 700; color: #333; margin-bottom: 12px; font-size: 16px; }
         .script-text { color: #555; line-height: 1.7; font-size: 15px; margin-bottom: 32px; white-space: pre-wrap;}
@@ -49,7 +49,7 @@ $completedVideoIds = $currentUser ? $app->getCompletedVideoIds($currentUser['Id_
         .course-navigation { display: flex; justify-content: center; gap: 16px; margin-top: auto; padding-top: 20px; border-top: 1px solid #eee; }
         .nav-btn { padding: 10px 24px; border: 1px solid #ddd; background: #fff; border-radius: 20px; cursor: pointer; font-size: 14px; font-weight: 500; color: #555; transition: all 0.2s; min-width: 120px; }
         .nav-btn:hover { background: #f8f9fa; border-color: #ccc; }
-        .nav-btn.next { background: #1c407a; color: white; border: 1px solid #1c407a; }
+        .nav-btn.next { background: #245B7A; color: white; border: 1px solid #245B7A; }
         .nav-btn.next:hover { background: #15305c; border-color: #15305c; }
         
         .empty-course { text-align: center; padding: 40px; color: #666; font-size: 18px; }
@@ -244,7 +244,7 @@ $completedVideoIds = $currentUser ? $app->getCompletedVideoIds($currentUser['Id_
                     nextBtn.style.cursor = 'not-allowed';
                 }
             } else {
-                videoContainer.innerHTML = `<div style="display:flex; justify-content:center; align-items:center; height:100%; width:100%; background:#f0f0f0; border-radius:12px; font-size:24px; font-weight:bold; color:#1c407a;">
+                videoContainer.innerHTML = `<div style="display:flex; justify-content:center; align-items:center; height:100%; width:100%; background:#EAF5F7; border-radius:12px; font-size:24px; font-weight:bold; color:#245B7A;">
                                                 Video Tidak Tersedia
                                             </div>`;
                 nextBtn.disabled = false;

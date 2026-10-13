@@ -138,7 +138,7 @@ $currentUser = $app->getCurrentUser();
             font-size: 24px;
             font-weight: 700;
             margin-bottom: 24px;
-            color: #0e1e4d;
+            color: #102A43;
         }
 
         /* Avatar upload area */
@@ -152,7 +152,7 @@ $currentUser = $app->getCurrentUser();
             width: 110px;
             height: 110px;
             border-radius: 50%;
-            border: 4px solid #d2a06b;
+            border: 4px solid #64C7D4;
             overflow: hidden;
             display: flex;
             align-items: center;
@@ -163,7 +163,7 @@ $currentUser = $app->getCurrentUser();
             transition: box-shadow 0.2s;
         }
         .avatar-preview:hover {
-            box-shadow: 0 0 0 4px rgba(210, 160, 107, 0.3);
+            box-shadow: 0 0 0 4px rgba(100, 199, 212, 0.3);
         }
         .avatar-preview img {
             width: 100%;
@@ -222,7 +222,7 @@ $currentUser = $app->getCurrentUser();
         }
         .form-group input[type="text"]:focus,
         .form-group textarea:focus {
-            border-color: #d2a06b;
+            border-color: #64C7D4;
         }
         .bio-counter {
             display: block;
@@ -236,7 +236,7 @@ $currentUser = $app->getCurrentUser();
         .btn-save-profil {
             width: 100%;
             padding: 14px;
-            background: #0e1e4d;
+            background: #102A43;
             color: #fff;
             border: none;
             border-radius: 12px;
@@ -247,7 +247,7 @@ $currentUser = $app->getCurrentUser();
             margin-top: 6px;
         }
         .btn-save-profil:hover {
-            background: #1c407a;
+            background: #245B7A;
         }
 
         /* Alert messages */
@@ -272,8 +272,8 @@ $currentUser = $app->getCurrentUser();
             width: 200px;
             height: 200px;
             border-radius: 50%;
-            border: 5px solid #d2a06b;
-            background: #d2a06b;
+            border: 5px solid #64C7D4;
+            background: #64C7D4;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -293,7 +293,7 @@ $currentUser = $app->getCurrentUser();
         <!-- Banner Profil -->
         <div class="banner-profil" style="
             width:100%;
-            background:#0e1e4d;
+            background:#102A43;
             padding:95px 40px;
             border-radius:20px;
             display:flex;
@@ -308,7 +308,7 @@ $currentUser = $app->getCurrentUser();
             <div class="ornamen-right"></div>
             <div style="display:flex; align-items:center; gap:25px;">
                 <?php if (!empty($displayFoto)): ?>
-                    <div style="width:200px; height:200px; border-radius:50%; border:5px solid #d2a06b; overflow:hidden;">
+                    <div style="width:200px; height:200px; border-radius:50%; border:5px solid #64C7D4; overflow:hidden;">
                         <img src="<?= $displayFoto ?>" style="width:100%; height:100%; object-fit:cover;">
                     </div>
                 <?php else: ?>
@@ -318,11 +318,11 @@ $currentUser = $app->getCurrentUser();
                 <?php endif; ?>
                 <div>
                     <h2 style="font-size:32px; font-weight:700;"><?= $displayName ?></h2>
-                    <p style="font-size:22px; color:#d2a06b;">@<?= $displayUsername ?></p>
+                    <p style="font-size:22px; color:#64C7D4;">@<?= $displayUsername ?></p>
                     <p style="font-size:20px; margin-top:10px;">"<?= $displayBio ?>"</p>
                 </div>
             </div>
-            <button id="btnEditProfil" style="background:#d2a06b; padding:10px 26px; color:white; font-size:20px; border:none; border-radius:12px; cursor:pointer; margin-right: 40px; z-index:2;">
+            <button id="btnEditProfil" style="background:#64C7D4; padding:10px 26px; color:white; font-size:20px; border:none; border-radius:12px; cursor:pointer; margin-right: 40px; z-index:2;">
                 Edit Profil
             </button>
         </div>

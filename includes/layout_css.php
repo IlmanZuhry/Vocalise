@@ -8,7 +8,7 @@
 
   body {
     display: flex;
-    background: #f5f5f5;
+    background: #EAF5F7;
   }
 
   /* ===== HEADER ===== */
@@ -19,7 +19,7 @@
     height: 90px;
     width: 100%;
     padding: 12px 32px;
-    background: #0e1e4d;
+    background: #102A43;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -101,7 +101,7 @@
   /* ===== SIDEBAR ===== */
   .sidebar {
     width: 260px;
-    background: #1c407a;
+    background: #245B7A;
     color: white;
     padding: 140px 24px 24px;
     min-height: 100vh;
@@ -126,7 +126,7 @@
 
   .sidebar ul li.active,
   .sidebar ul li:hover {
-    background: #476097;
+    background: #245B7A;
   }
 
   .menu-item {
@@ -154,7 +154,7 @@
   }
 
   .menu-item.active {
-    background: #d2a06b !important;
+    background: #64C7D4 !important;
     color: #ffffff;
     font-weight: 600;
   }
@@ -173,3 +173,4 @@
     fill: white;
   }
 </style>
+<link rel="stylesheet" href="brand-theme.css">

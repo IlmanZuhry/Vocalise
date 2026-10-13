@@ -70,7 +70,7 @@ function mentorScoreValue($submission, $key, $fallback = 75) {
     <style>
         /* ===== HERO BANNER ===== */
         .dashboard-hero {
-            background: linear-gradient(135deg, #10204f 0%, #1c3a6e 60%, #2a4e8e 100%);
+            background: linear-gradient(135deg, #102A43 0%, #245B7A 60%, #245B7A 100%);
             border-radius: 20px;
             padding: 40px 38px;
             color: #fff;
@@ -88,7 +88,7 @@ function mentorScoreValue($submission, $key, $fallback = 75) {
             width: 280px;
             height: 280px;
             border-radius: 50%;
-            background: rgba(210, 160, 107, 0.12);
+            background: rgba(100, 199, 212, 0.12);
             left: -90px;
             bottom: -130px;
         }
@@ -119,7 +119,7 @@ function mentorScoreValue($submission, $key, $fallback = 75) {
 
         .hero-text p {
             font-size: 17px;
-            color: #d2a06b;
+            color: #64C7D4;
             margin: 0 0 22px;
             line-height: 1.5;
         }
@@ -179,7 +179,7 @@ function mentorScoreValue($submission, $key, $fallback = 75) {
         .section-title {
             font-size: 26px;
             font-weight: 800;
-            color: #10204f;
+            color: #102A43;
             margin: 0 0 20px;
         }
 
@@ -224,7 +224,7 @@ function mentorScoreValue($submission, $key, $fallback = 75) {
             height: 6px;
         }
 
-        .quick-card.card-penilaian::before { background: linear-gradient(135deg, #d2a06b, #e8c49a); }
+        .quick-card.card-penilaian::before { background: linear-gradient(135deg, #64C7D4, #A8E0E8); }
         .quick-card.card-ebook::before { background: linear-gradient(135deg, #175cd3, #4a8aec); }
         .quick-card.card-materi::before { background: linear-gradient(135deg, #067647, #34c77b); }
 
@@ -254,7 +254,7 @@ function mentorScoreValue($submission, $key, $fallback = 75) {
         .quick-card h3 {
             font-size: 18px;
             font-weight: 700;
-            color: #10204f;
+            color: #102A43;
             margin: 0 0 6px;
         }
 
@@ -283,7 +283,7 @@ function mentorScoreValue($submission, $key, $fallback = 75) {
         .dash-panel h2 {
             font-size: 22px;
             font-weight: 800;
-            color: #10204f;
+            color: #102A43;
             margin: 0 0 6px;
         }
 
@@ -312,15 +312,15 @@ function mentorScoreValue($submission, $key, $fallback = 75) {
         }
 
         .queue-mini-item:hover {
-            border-color: #d2a06b;
-            background: #fffaf3;
+            border-color: #64C7D4;
+            background: #EAF5F7;
         }
 
         .queue-mini-item .q-avatar {
             width: 42px;
             height: 42px;
             border-radius: 50%;
-            background: #10204f;
+            background: #102A43;
             color: #fff;
             display: flex;
             align-items: center;
@@ -337,7 +337,7 @@ function mentorScoreValue($submission, $key, $fallback = 75) {
 
         .queue-mini-item .q-name {
             font-weight: 700;
-            color: #10204f;
+            color: #102A43;
             font-size: 14px;
             white-space: nowrap;
             overflow: hidden;
@@ -379,7 +379,7 @@ function mentorScoreValue($submission, $key, $fallback = 75) {
             align-items: center;
             gap: 6px;
             margin-top: 14px;
-            color: #d2a06b;
+            color: #64C7D4;
             font-weight: 700;
             font-size: 14px;
             text-decoration: none;
@@ -400,7 +400,7 @@ function mentorScoreValue($submission, $key, $fallback = 75) {
         .info-card h3 {
             font-size: 16px;
             font-weight: 700;
-            color: #10204f;
+            color: #102A43;
             margin: 0 0 8px;
         }
 

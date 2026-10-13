@@ -91,9 +91,9 @@ function penilaianFeatureLabel($type) {
 
         .topbar h1 {
             font-size: 36px;
-            color: #10204f;
+            color: #102A43;
             margin: 0 0 8px;
-            background: linear-gradient(135deg, #10204f 0%, #d2a06b 100%);
+            background: linear-gradient(135deg, #102A43 0%, #64C7D4 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -150,7 +150,7 @@ function penilaianFeatureLabel($type) {
         }
 
         .stat strong {
-            color: #10204f;
+            color: #102A43;
             font-size: 36px;
             position: relative;
             z-index: 1;
@@ -180,7 +180,7 @@ function penilaianFeatureLabel($type) {
         }
 
         .panel h2 {
-            color: #10204f;
+            color: #102A43;
             font-size: 22px;
             margin: 0 0 6px;
         }
@@ -205,11 +205,11 @@ function penilaianFeatureLabel($type) {
 
         .queue-item:hover,
         .queue-item.selected {
-            border-color: #d2a06b;
+            border-color: #64C7D4;
             background: #fff8ef;
         }
 
-        .queue-item strong { display: block; color: #10204f; margin-bottom: 4px; font-size: 15px; }
+        .queue-item strong { display: block; color: #102A43; margin-bottom: 4px; font-size: 15px; }
         .queue-item small { display: block; color: #667085; font-size: 13px; }
         .queue-item p { color: #667085; margin: 8px 0 0; line-height: 1.45; font-size: 14px; }
 
@@ -281,7 +281,7 @@ function penilaianFeatureLabel($type) {
             letter-spacing: 0.3px;
         }
 
-        .submission-meta strong { display: block; color: #10204f; font-size: 15px; }
+        .submission-meta strong { display: block; color: #102A43; font-size: 15px; }
 
         audio { margin-bottom: 18px; width: 100%; border-radius: 8px; }
 
@@ -313,7 +313,7 @@ function penilaianFeatureLabel($type) {
 
         input[type="number"]:focus,
         textarea:focus {
-            border-color: #d2a06b;
+            border-color: #64C7D4;
             box-shadow: 0 0 0 3px rgb(210 160 107 / 0.18);
         }
 
@@ -322,7 +322,7 @@ function penilaianFeatureLabel($type) {
         .field { margin-top: 14px; }
 
         .save {
-            background: linear-gradient(135deg, #10204f 0%, #1c3a6e 100%);
+            background: linear-gradient(135deg, #102A43 0%, #245B7A 100%);
             border: 0;
             border-radius: 12px;
             color: #fff;

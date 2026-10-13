@@ -8,7 +8,7 @@
 
 body {
     display: flex;
-    background: #f5f5f5;
+    background: #EAF5F7;
     overflow-x: hidden;
 }
 
@@ -20,7 +20,7 @@ body {
     height: 90px;
     width: 100%;
     padding: 12px 32px;
-    background: #0e1e4d;
+    background: #102A43;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -88,7 +88,7 @@ body {
 }
 
 .menu-item.active {
-    background: #d2a06b !important;
+    background: #64C7D4 !important;
     color: #ffffff;
     font-weight: 600;
 }
@@ -159,7 +159,7 @@ body {
 
 .sidebar {
     width: 260px;
-    background: #1c407a;
+    background: #245B7A;
     color: white;
     padding: 140px 24px 24px;
     min-height: 100vh;
@@ -179,7 +179,7 @@ body {
 
 .sidebar ul li.active,
 .sidebar ul li:hover {
-    background: #476097;
+    background: #245B7A;
 }
 
 .mari {
@@ -189,7 +189,7 @@ body {
 .karena {
     font-size: 25px;
     word-spacing: 2.5px;
-    color: #d2a06b;
+    color: #64C7D4;
 
 }
 
@@ -202,7 +202,7 @@ main {
 
 .hero {
     display: flex;
-    background: #10204f;
+    background: #102A43;
     color: white;
     border-radius: 14px;
     padding: 35px;
@@ -249,7 +249,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 6px solid #d2a06b;
+    border: 6px solid #64C7D4;
     overflow: hidden;
 
 }
@@ -285,7 +285,7 @@ main {
     float: right;
     font-size: 18px;
     font-weight: 600;
-    color: #d1a057;
+    color: #64C7D4;
 }
 
 
@@ -301,7 +301,7 @@ main {
 .progress-bar .fill {
     width: 0;
     height: 100%;
-    background: #d1a057;
+    background: #64C7D4;
     border-radius: 5px;
 }
 
@@ -314,7 +314,7 @@ main {
 
 
 .btn-primary {
-    background: #d2a06b;
+    background: #64C7D4;
     border: none;
     color: white;
     padding: 12px 30px;
@@ -355,7 +355,7 @@ main {
     height: 80px;
     border-radius: 20px;
     margin: 0 auto 14px;
-    background: #0e3a8a;
+    background: #245B7A;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -372,7 +372,7 @@ main {
 }
 
 .materi-icon {
-    background: #032F98;
+    background: #245B7A;
 }
 
 .latihan-icon {
@@ -457,7 +457,7 @@ main {
     width: 50px;
     height: 50px;
     border-radius: 18px;
-    background: #032F98;
+    background: #245B7A;
 }
 
 .activity-item .icon-box img {

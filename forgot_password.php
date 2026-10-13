@@ -86,7 +86,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         .alert-error { background: #fef2f2; color: #dc2626; border: 1px solid #fecaca; }
         .alert-success { background: #f0fdf4; color: #16a34a; border: 1px solid #bbf7d0; }
         .form-wrapper input { box-sizing: border-box; }
-        .back-button { display: block; width: 70%; box-sizing: border-box; padding: 11px; margin: 12px auto 0; border: 1px solid #0f1f4d; border-radius: 25px; color: #0f1f4d; font-size: 16px; font-weight: 600; text-align: center; text-decoration: none; }
+        .back-button { display: block; width: 70%; box-sizing: border-box; padding: 11px; margin: 12px auto 0; border: 1px solid #102A43; border-radius: 25px; color: #102A43; font-size: 16px; font-weight: 600; text-align: center; text-decoration: none; }
         .back-button:hover { background: #f1f4fa; }
     </style>
     <link rel="stylesheet" href="brand-theme.css">
