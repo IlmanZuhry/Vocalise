@@ -174,6 +174,8 @@ if (!$mentor) {
     }
 </style>
 
+<link rel="stylesheet" href="../brand-theme.css">
+
 <header class="header">
     <div class="header-left">
         <img src="../assets/ayooo.png" class="logo-header" alt="Logo">
