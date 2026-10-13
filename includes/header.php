@@ -187,7 +187,7 @@ $app->ensureSession();
                     <?php if (!empty($displayFoto)): ?>
                         <img src="<?= $displayFoto ?>" class="avatar" alt="Foto profil">
                     <?php else: ?>
-                        <div class="avatar" style="background:#d2a06b;display:flex;align-items:center;justify-content:center;">
+                        <div class="avatar" style="background:#64C7D4;display:flex;align-items:center;justify-content:center;">
                             <svg viewBox="0 0 24 24" width="30" height="30"><path fill="white" d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
                         </div>
                     <?php endif; ?>

@@ -154,7 +154,7 @@
   }
 
   .menu-item.active {
-    background: #d2a06b !important;
+    background: #64C7D4 !important;
     color: #ffffff;
     font-weight: 600;
   }

@@ -65,7 +65,7 @@ if (isset($mentor) && $mentor) {
             <?= strtoupper(substr($mentor['name'], 0, 1)) ?>
         </div>
         <div style="color: #10204f; font-weight: 800; font-size: 15px; margin-bottom: 4px;"><?= htmlspecialchars($mentor['name']) ?></div>
-        <div style="display: inline-block; background: #d2a06b; color: #fff; font-size: 11px; font-weight: bold; padding: 3px 8px; border-radius: 999px; letter-spacing: 0.5px; text-transform: uppercase;">
+        <div style="display: inline-block; background: #64C7D4; color: #102A43; font-size: 11px; font-weight: bold; padding: 3px 8px; border-radius: 999px; letter-spacing: 0.5px; text-transform: uppercase;">
             <?= $mentorLabel ?>
         </div>
     </div>

@@ -67,8 +67,8 @@ if (!$mentor) {
             width: 200px;
             height: 200px;
             border-radius: 50%;
-            border: 5px solid #d2a06b;
-            background: #d2a06b;
+            border: 5px solid #64C7D4;
+            background: #64C7D4;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -84,7 +84,7 @@ if (!$mentor) {
 
         .profile-username {
             font-size: 22px;
-            color: #d2a06b;
+            color: #245B7A;
             margin-bottom: 10px;
         }
 

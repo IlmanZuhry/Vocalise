@@ -93,7 +93,7 @@ function penilaianFeatureLabel($type) {
             font-size: 36px;
             color: #10204f;
             margin: 0 0 8px;
-            background: linear-gradient(135deg, #10204f 0%, #d2a06b 100%);
+            background: linear-gradient(135deg, #102A43 0%, #245B7A 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -138,7 +138,7 @@ function penilaianFeatureLabel($type) {
             border-radius: 50%;
             right: -30px;
             top: -30px;
-            background: rgb(210 160 107 / 0.1);
+            background: rgb(100 199 212 / 0.18);
         }
 
         .stat span {
@@ -205,8 +205,8 @@ function penilaianFeatureLabel($type) {
 
         .queue-item:hover,
         .queue-item.selected {
-            border-color: #d2a06b;
-            background: #fff8ef;
+            border-color: #64C7D4;
+            background: #EAF5F7;
         }
 
         .queue-item strong { display: block; color: #10204f; margin-bottom: 4px; font-size: 15px; }
@@ -313,8 +313,8 @@ function penilaianFeatureLabel($type) {
 
         input[type="number"]:focus,
         textarea:focus {
-            border-color: #d2a06b;
-            box-shadow: 0 0 0 3px rgb(210 160 107 / 0.18);
+            border-color: #64C7D4;
+            box-shadow: 0 0 0 3px rgb(100 199 212 / 0.22);
         }
 
         textarea { min-height: 86px; resize: vertical; }
@@ -322,7 +322,7 @@ function penilaianFeatureLabel($type) {
         .field { margin-top: 14px; }
 
         .save {
-            background: linear-gradient(135deg, #10204f 0%, #1c3a6e 100%);
+            background: linear-gradient(135deg, #102A43 0%, #245B7A 100%);
             border: 0;
             border-radius: 12px;
             color: #fff;

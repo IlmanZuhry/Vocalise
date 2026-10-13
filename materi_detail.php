@@ -20,7 +20,7 @@ $completedVideoIds = $currentUser ? $app->getCompletedVideoIds($currentUser['Id_
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TALKLAB - <?= htmlspecialchars($material['title']) ?></title>
+    <title>VOCALISE - <?= htmlspecialchars($material['title']) ?></title>
     <?php include 'includes/layout_css.php'; ?>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; font-family: system-ui, sans-serif; }

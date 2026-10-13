@@ -88,7 +88,7 @@ function mentorScoreValue($submission, $key, $fallback = 75) {
             width: 280px;
             height: 280px;
             border-radius: 50%;
-            background: rgba(210, 160, 107, 0.12);
+            background: rgba(100, 199, 212, 0.18);
             left: -90px;
             bottom: -130px;
         }
@@ -119,7 +119,7 @@ function mentorScoreValue($submission, $key, $fallback = 75) {
 
         .hero-text p {
             font-size: 17px;
-            color: #d2a06b;
+            color: #64C7D4;
             margin: 0 0 22px;
             line-height: 1.5;
         }
@@ -224,7 +224,7 @@ function mentorScoreValue($submission, $key, $fallback = 75) {
             height: 6px;
         }
 
-        .quick-card.card-penilaian::before { background: linear-gradient(135deg, #d2a06b, #e8c49a); }
+        .quick-card.card-penilaian::before { background: linear-gradient(135deg, #245B7A, #64C7D4); }
         .quick-card.card-ebook::before { background: linear-gradient(135deg, #175cd3, #4a8aec); }
         .quick-card.card-materi::before { background: linear-gradient(135deg, #067647, #34c77b); }
 
@@ -238,7 +238,7 @@ function mentorScoreValue($submission, $key, $fallback = 75) {
             margin: 0 auto 16px;
         }
 
-        .quick-card.card-penilaian .quick-card-icon { background: linear-gradient(135deg, #fdf0e0, #fce4c3); }
+        .quick-card.card-penilaian .quick-card-icon { background: linear-gradient(135deg, #EAF5F7, #64C7D4); }
         .quick-card.card-ebook .quick-card-icon { background: linear-gradient(135deg, #e0edff, #c5d9f7); }
         .quick-card.card-materi .quick-card-icon { background: linear-gradient(135deg, #dcfae6, #b8f0cc); }
 
@@ -247,7 +247,7 @@ function mentorScoreValue($submission, $key, $fallback = 75) {
             height: 30px;
         }
 
-        .quick-card.card-penilaian .quick-card-icon svg { color: #9a5600; }
+        .quick-card.card-penilaian .quick-card-icon svg { color: #102A43; }
         .quick-card.card-ebook .quick-card-icon svg { color: #175cd3; }
         .quick-card.card-materi .quick-card-icon svg { color: #067647; }
 
@@ -312,8 +312,8 @@ function mentorScoreValue($submission, $key, $fallback = 75) {
         }
 
         .queue-mini-item:hover {
-            border-color: #d2a06b;
-            background: #fffaf3;
+            border-color: #64C7D4;
+            background: #EAF5F7;
         }
 
         .queue-mini-item .q-avatar {
@@ -379,14 +379,14 @@ function mentorScoreValue($submission, $key, $fallback = 75) {
             align-items: center;
             gap: 6px;
             margin-top: 14px;
-            color: #d2a06b;
+            color: #245B7A;
             font-weight: 700;
             font-size: 14px;
             text-decoration: none;
             transition: color 0.2s;
         }
 
-        .view-all-link:hover { color: #b8864f; }
+        .view-all-link:hover { color: #102A43; }
 
         /* ===== INFO PANEL ===== */
         .info-card {
