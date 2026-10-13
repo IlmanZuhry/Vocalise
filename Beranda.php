@@ -144,7 +144,7 @@ if (!$currentUser) {
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TALKLAB - Beranda</title>
+    <title>Vocalise - Beranda</title>
     <link rel="stylesheet" href="style.css" />
     <?php include 'includes/layout_css.php'; ?>
 </head>

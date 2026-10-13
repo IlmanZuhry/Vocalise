@@ -682,6 +682,7 @@
             border-bottom: 4px solid var(--accent-gold) !important;
         }
     </style>
+    <link rel="stylesheet" href="brand-theme.css">
 </head>
 
 <body>
@@ -705,7 +706,7 @@
     </header>
 
 
-    <section class="hero">
+    <section class="hero landing-hero">
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">

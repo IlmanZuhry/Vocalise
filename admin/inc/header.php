@@ -174,10 +174,12 @@ if (!$mentor) {
     }
 </style>
 
+<link rel="stylesheet" href="../brand-theme.css">
+
 <header class="header">
     <div class="header-left">
-        <img src="../assets/ayooo.png" class="logo-header" alt="Logo">
-        <span class="brand-text">TALKLAB</span>
+        <img src="../assets/logo_voca.png" class="logo-header" alt="Logo">
+        <span class="brand-text">Vocalise</span>
     </div>
 
     <div class="user-area">

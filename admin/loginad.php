@@ -77,6 +77,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             text-decoration: underline;
         }
     </style>
+    <link rel="stylesheet" href="../brand-theme.css">
 </head>
 
 <body>
@@ -88,9 +89,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
             <div class="brand">
-                <img src="../assets/ayooo.png" class="brand-logo" alt="Logo">
+                <img src="../assets/logo_voca.png" class="brand-logo" alt="Logo">
                 <span class="brand-text">
-                    <span class="talk">TALK</span><span class="lab">LAB</span>
+                    <span class="talk">Voca</span><span class="lab">lise</span>
                 </span>
             </div>
 

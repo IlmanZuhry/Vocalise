@@ -89,6 +89,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         .back-button { display: block; width: 70%; box-sizing: border-box; padding: 11px; margin: 12px auto 0; border: 1px solid #0f1f4d; border-radius: 25px; color: #0f1f4d; font-size: 16px; font-weight: 600; text-align: center; text-decoration: none; }
         .back-button:hover { background: #f1f4fa; }
     </style>
+    <link rel="stylesheet" href="brand-theme.css">
 </head>
 <body>
     <div class="login-container">

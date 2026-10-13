@@ -14,7 +14,7 @@ if (!$mentor) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TALKLAB - Profil Mentor</title>
+    <title>Vocalise - Profil Mentor</title>
     <?php include 'inc/layout_css.php'; ?>
     <style>
         .profile-page {

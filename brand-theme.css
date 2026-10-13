@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+/* Vocalise brand system: Midnight, Blue, Cyan, Ice, and White */
+:root {
+  --vocalise-midnight: #102A43;
+  --vocalise-blue: #245B7A;
+  --vocalise-cyan: #64C7D4;
+  --vocalise-ice: #EAF5F7;
+  --vocalise-white: #F8FAFC;
+  --vocalise-text: #102A43;
+  --vocalise-muted: #52677A;
+  --vocalise-border: #CDE5EA;
+  --vocalise-gradient: linear-gradient(135deg, #102A43 0%, #245B7A 58%, #64C7D4 100%);
+}
+
+body { background: var(--vocalise-ice) !important; color: var(--vocalise-text); }
+
+/* Consistent content-title typography across all menu pages. */
+main > h1,
+.page-head h1,
+.page-header h1,
+.course-header,
+.admin-page-title,
+.topbar h1,
+.profile-page > h1,
+body > div[style*="margin-left:260px"] > h1 {
+  color: var(--vocalise-midnight) !important;
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif !important;
+  font-size: 40px !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.035em;
+  line-height: 1.15 !important;
+}
+.page-head h1, .topbar h1 {
+  background: none !important;
+  -webkit-text-fill-color: var(--vocalise-midnight) !important;
+}
+
+/* Shared application chrome */
+.header, .login-left, .hero, .streak-card { background: var(--vocalise-midnight) !important; }
+.sidebar { background: var(--vocalise-blue) !important; }
+.sidebar ul li.active, .sidebar ul li:hover, .menu-item.active { background: var(--vocalise-cyan) !important; color: var(--vocalise-midnight) !important; }
+.menu-item.active .icon { fill: var(--vocalise-midnight) !important; }
+.menu-item:hover:not(.active) { background: rgba(234, 245, 247, .20) !important; }
+.profile-menu-toggle:focus-visible { outline-color: var(--vocalise-cyan) !important; }
+.profile-dropdown-item:hover { background: var(--vocalise-ice) !important; color: var(--vocalise-midnight) !important; }
+.btn-cancel-logout { background: var(--vocalise-ice) !important; color: var(--vocalise-midnight) !important; }
+
+/* Primary controls and accent treatment */
+.btn-primary, .btn-login, .admin-button, .nav-btn.next, .progress-bar .fill,
+.circle-border + *, .quick-card .icon-box, .activity-item .icon-box { background: var(--vocalise-blue) !important; }
+.btn-primary:hover, .btn-login:hover, .admin-button:hover, .nav-btn.next:hover { background: var(--vocalise-midnight) !important; }
+.menu-item.active, .karena, .progress-box .percent, .stat-card.accent strong,
+.view-all-link, .brand-text .lab { color: var(--vocalise-cyan) !important; }
+.image-wrapper, .circle-border { border-color: var(--vocalise-cyan) !important; }
+.ornament { background: var(--vocalise-cyan) !important; }
+.hero .ornamen-left, .hero .ornamen-right,
+.banner-profil .ornamen-left, .banner-profil .ornamen-right {
+  background: rgba(100, 199, 212, .28) !important;
+}
+
+/* Surfaces, forms, cards, and page titles */
+.quick-card, .card, .activity-list, .course-container, .admin-panel, .profile-card,
+.content-card, .panel, .submission-card, .login-right, .profile-dropdown { background: var(--vocalise-white) !important; }
+.activity-item, .admin-card, .course-menu-item.active, .btn-muted,
+.empty-state, .form-section, .stat-card, .camera-card { background: var(--vocalise-ice) !important; }
+input, select, textarea, .nav-btn, .btn-social { border-color: var(--vocalise-border) !important; }
+input:focus, select:focus, textarea:focus { border-color: var(--vocalise-cyan) !important; box-shadow: 0 0 0 3px rgba(100, 199, 212, .25) !important; }
+.admin-page-title, .admin-card h2, .admin-card h3, .course-header, .back-link,
+.nav-btn.next, .admin-button, .login-right h1 { color: var(--vocalise-midnight); }
+.admin-page-subtitle, .admin-card p, .course-menu-item, .script-text, .empty-course { color: var(--vocalise-muted); }
+.back-link:hover { color: var(--vocalise-blue) !important; }
+
+/* Content screens with page-specific components */
+main { background-color: var(--vocalise-ice); }
+.filter-group a.active button, .btn-posting, .btn-submit, .btn-comment-submit,
+.ebook-btn, .edit-profile-btn { background-color: var(--vocalise-blue) !important; }
+.filter-group a.active button:hover, .btn-posting:hover, .btn-submit:hover,
+.btn-comment-submit:hover, .ebook-btn:hover, .edit-profile-btn:hover { background-color: var(--vocalise-midnight) !important; }
+.post-avatar, .comment-avatar { border-color: var(--vocalise-cyan) !important; }
+.post-avatar-default, .comment-avatar-default { background: var(--vocalise-blue) !important; }
+.post-menu:hover, .post-share:hover, .post-meta a, .material-card h3,
+.ebook-title, .profile-username { color: var(--vocalise-blue) !important; }
+.modal-content, article.post, .ebook-card, .material-card { background: var(--vocalise-white) !important; }
+.profile-avatar, .profile-photo, .profile-image, .modal-avatar { border-color: var(--vocalise-cyan) !important; }
+.avatar-preview, .banner-avatar-default,
+div[style*="border:5px solid #d2a06b"] { border-color: var(--vocalise-cyan) !important; }
+.banner-avatar-default { background: var(--vocalise-blue) !important; }
+#btnEditProfil { background: var(--vocalise-blue) !important; }
+#btnEditProfil:hover { background: var(--vocalise-midnight) !important; }
+p[style*="color:#d2a06b"] { color: var(--vocalise-cyan) !important; }
+
+/* Admin dashboard gradients and emphasis */
+.dashboard-hero, .summary-banner { background: var(--vocalise-gradient) !important; }
+
+/* Account banners use the same gradient language as the admin dashboard. */
+.banner-profil, .profile-hero {
+  background: var(--vocalise-gradient) !important;
+  box-shadow: 0 12px 36px rgba(16, 42, 67, .18) !important;
+}
+.profile-hero .profile-username { color: var(--vocalise-cyan) !important; }
+.profile-hero .profile-ornament-left,
+.profile-hero .profile-ornament-right {
+  background: rgba(100, 199, 212, .22) !important;
+}
+
+/* Page titles on Latihan and Hasil Latihan sit directly on the page canvas. */
+.page-head { background: transparent !important; }
+.quick-card.card-penilaian::before, .quick-card.card-ebook::before,
+.quick-card.card-materi::before { background: linear-gradient(135deg, var(--vocalise-blue), var(--vocalise-cyan)) !important; }
+
+/* Landing-page variables */
+body:has(.landing-page), body:has(.hero-section) { background: var(--vocalise-white) !important; }
+.landing-hero { background: var(--vocalise-ice) !important; }
+:root {
+  --primary-blue: #102A43;
+  --primary-dark: #102A43;
+  --accent-gold: #245B7A;
+  --accent-gold-light: #64C7D4;
+  --white: #F8FAFC;
+  --off-white: #EAF5F7;
+  --text-dark: #102A43;
+  --text-light: #52677A;
+  --gradient-gold: linear-gradient(135deg, #245B7A 0%, #64C7D4 100%);
+  --gradient-blue: linear-gradient(135deg, #102A43 0%, #245B7A 100%);
+  --shadow-gold: 0 10px 20px rgba(100, 199, 212, .25);
+}
+
+/* Tailwind utility colours used by the practice interface. */
+[class~="bg-[#10204f]"], [class~="bg-[#0e1e4d]"] { background-color: var(--vocalise-midnight) !important; }
+[class~="bg-[#d2a06b]"] { background-color: var(--vocalise-cyan) !important; }
+[class~="bg-[#f8fafc]"], [class~="bg-[#fffaf3]"] { background-color: var(--vocalise-ice) !important; }
+[class~="text-[#10204f]"], [class~="text-[#0e1e4d]"] { color: var(--vocalise-midnight) !important; }
+[class~="text-[#d2a06b]"] { color: var(--vocalise-blue) !important; }
+[class~="text-[#667085]"], [class~="text-[#344054]"] { color: var(--vocalise-muted) !important; }
+[class~="border-[#d2a06b]"], [class~="border-[#f2d7b8]"] { border-color: var(--vocalise-cyan) !important; }
+[class~="border-[#e5e7eb]"], [class~="border-[#eef2f7]"], [class~="border-[#cbd5e1]"] { border-color: var(--vocalise-border) !important; }

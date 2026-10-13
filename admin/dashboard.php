@@ -65,7 +65,7 @@ function mentorScoreValue($submission, $key, $fallback = 75) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TALKLAB - Dashboard Mentor</title>
+    <title>Vocalise - Dashboard Mentor</title>
     <?php include 'inc/layout_css.php'; ?>
     <style>
         /* ===== HERO BANNER ===== */
@@ -438,7 +438,7 @@ function mentorScoreValue($submission, $key, $fallback = 75) {
 
             <div class="hero-text">
                 <h1>Selamat Datang, <?= htmlspecialchars($mentor['name']) ?>!</h1>
-                <p>Kelola penilaian, materi, dan e-book untuk peserta TalkLab dari sini.</p>
+                <p>Kelola penilaian, materi, dan e-book untuk peserta Vocalise dari sini.</p>
 
                 <div class="hero-stats">
                     <div class="hero-stat-box">
