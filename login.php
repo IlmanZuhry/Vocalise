@@ -67,8 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
             <div class="brand">
-                <img src="assets/logo_withtext.png" class="brand-logo" alt="Logo">
-                
+                <span class="brand-text">Vocalise</span>
             </div>
 
 

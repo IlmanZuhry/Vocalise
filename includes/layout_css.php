@@ -39,10 +39,11 @@
   }
 
   .brand-text {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
     color: white;
     font-weight: 700;
     font-size: 32px;
-    letter-spacing: 1px;
+    letter-spacing: -0.02em;
   }
 
   .notif {

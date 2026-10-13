@@ -206,18 +206,11 @@ form input:focus {
 }
 
 .brand-text {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
     font-size: 37px;
     font-weight: 700;
-    letter-spacing: 1px;
-
-}
-
-.brand-text .talk {
-    color: white;
-}
-
-.brand-text .lab {
-    color: #64C7D4;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
 }
 
 

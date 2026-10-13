@@ -124,7 +124,7 @@ $posts = $app->getCommunityPosts();
 
     .btn-posting {
       float: right;
-      background-color: #bca451;
+      background-color: #245B7A;
       color: white;
       padding: 10px 25px;
       border: none;
@@ -138,7 +138,7 @@ $posts = $app->getCommunityPosts();
     }
 
     .btn-submit{
-  background-color: #bca451;
+  background-color: #245B7A;
   color: white;
   padding: 10px 25px;
   border: none;
@@ -176,7 +176,7 @@ $posts = $app->getCommunityPosts();
       height: 44px;
       border-radius: 50%;
       object-fit: cover;
-      border: 2px solid #bca451;
+      border: 2px solid #64C7D4;
       flex-shrink: 0;
     }
 
@@ -208,7 +208,7 @@ $posts = $app->getCommunityPosts();
       user-select: none;
     }
 
-    .post-menu:hover { color: #bca451; }
+    .post-menu:hover { color: #245B7A; }
 
     .post-text {
       font-size: 15px;
@@ -252,7 +252,7 @@ $posts = $app->getCommunityPosts();
     .reaction-btn:hover {
       background-color: #f3f4f6;
       border-color: #d1d5db;
-      color: #bca451;
+      color: #245B7A;
     }
     .heart-icon{
   width:20px;
@@ -297,7 +297,7 @@ $posts = $app->getCommunityPosts();
       gap: 6px;
     }
 
-    .post-share:hover { color: #bca451; }
+    .post-share:hover { color: #245B7A; }
 
     .alert {
       padding: 16px 20px;
@@ -515,7 +515,7 @@ $posts = $app->getCommunityPosts();
       height: 32px;
       border-radius: 50%;
       object-fit: cover;
-      border: 2px solid #bca451;
+      border: 2px solid #64C7D4;
     }
 
     .comment-avatar-default {
@@ -585,7 +585,7 @@ $posts = $app->getCommunityPosts();
 
     .comment-form textarea:focus {
       outline: none;
-      border-color: #bca451;
+      border-color: #64C7D4;
       background: white;
     }
 
@@ -608,7 +608,7 @@ $posts = $app->getCommunityPosts();
 
     .btn-comment-submit {
       padding: 8px 16px;
-      background: #bca451;
+      background: #245B7A;
       border: none;
       border-radius: 8px;
       color: white;

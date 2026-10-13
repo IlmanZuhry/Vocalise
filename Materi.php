@@ -93,7 +93,7 @@ if ($currentUser) {
     }
 
     .filter-group a.active button {
-      background-color: #ba8e58;
+      background-color: #245B7A;
       color: white;
       font-weight: 700;
       box-shadow: none;
@@ -154,7 +154,7 @@ if ($currentUser) {
     .warna-emerald { background-color: #10b981; color: white; font-weight: 700; font-size: 48px; }
     .warna-rose { background-color: #f43f5e; color: white; font-weight: 700; font-size: 48px; }
     .warna-sky { background-color: #0ea5e9; color: white; font-weight: 700; font-size: 48px; }
-    .warna-amber { background-color: #f59e0b; color: white; font-weight: 700; font-size: 48px; }
+    .warna-amber { background-color: #64C7D4; color: #102A43; font-weight: 700; font-size: 48px; }
     .warna-pink-muda { background-color: #f472b6; color: white; font-weight: 700; font-size: 48px; }
     .warna-maroon { background-color: #9f1239; color: white; font-weight: 700; font-size: 48px; }
     .warna-navy { background-color: #1e3a8a; color: white; font-weight: 700; font-size: 48px; }
@@ -218,7 +218,7 @@ if ($currentUser) {
 
     .progress-text span {
       font-weight: 600;
-      color: #ba8e58;
+      color: #245B7A;
     }
 
     .progress-bar {
@@ -231,7 +231,7 @@ if ($currentUser) {
 
     .progress {
       height: 6px;
-      background-color: #ba8e58;
+      background-color: #245B7A;
       border-radius: 4px;
     }
   </style>

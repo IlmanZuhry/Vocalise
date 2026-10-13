@@ -476,7 +476,7 @@ $practiceScripts = [
     }
 
     .feature-card[data-feature="challenge"] .feature-icon { background: #6d2d59; }
-    .feature-card[data-feature="ai"] .feature-icon { background: #b8752b; }
+    .feature-card[data-feature="ai"] .feature-icon { background: #245B7A; }
 
     .feature-card h2 {
       color: #102A43;
@@ -911,7 +911,7 @@ $practiceScripts = [
       border-radius: 999px;
       padding: 3px 10px;
       background: #EAF5F7;
-      color: #b8752b;
+      color: #245B7A;
       font-size: 13px;
       font-weight: 900;
       letter-spacing: 0.3px;

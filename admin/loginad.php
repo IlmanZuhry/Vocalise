@@ -58,7 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TALKLAB Mentor Login</title>
+    <title>Vocalise Mentor Login</title>
     <link rel="stylesheet" href="../style2.css">
     <style>
         .back-link {
@@ -89,10 +89,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
             <div class="brand">
-                <img src="../assets/logo_voca.png" class="brand-logo" alt="Logo">
-                <span class="brand-text">
-                    <span class="talk">Voca</span><span class="lab">lise</span>
-                </span>
+                <span class="brand-text">Vocalise</span>
             </div>
 
 

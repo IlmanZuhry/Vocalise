@@ -79,7 +79,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atur Ulang Kata Sandi - TALKLAB</title>
+    <title>Atur Ulang Kata Sandi - Vocalise</title>
     <link rel="stylesheet" href="style3.css">
     <style>
         .alert { padding: 12px 16px; border-radius: 8px; margin-bottom: 16px; font-size: 14px; font-weight: 600; }
@@ -95,8 +95,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="login-container">
         <div class="login-left">
             <div class="brand">
-                <img src="assets/ayooo.png" class="brand-logo" alt="Logo">
-                <span class="brand-text"><span class="talk">TALK</span><span class="lab">LAB</span></span>
+                <span class="brand-text">Vocalise</span>
             </div>
             <div class="hero-illustration"><div class="circle-border"><img src="assets/log.png" class="character" alt="Character"></div></div>
             <h2 class="hero-title">Siap bicara dengan percaya diri?</h2>

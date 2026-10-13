@@ -282,7 +282,7 @@ $materials = $app->getMaterials();
         .warna-emerald { background-color: #10b981; color: white; }
         .warna-rose { background-color: #f43f5e; color: white; }
         .warna-sky { background-color: #0ea5e9; color: white; }
-        .warna-amber { background-color: #f59e0b; color: white; }
+        .warna-amber { background-color: #64C7D4; color: #102A43; }
         .warna-pink-muda { background-color: #f472b6; color: white; }
         .warna-maroon { background-color: #9f1239; color: white; }
         .warna-navy { background-color: #1e3a8a; color: white; }

@@ -138,7 +138,7 @@ function penilaianFeatureLabel($type) {
             border-radius: 50%;
             right: -30px;
             top: -30px;
-            background: rgb(210 160 107 / 0.1);
+            background: rgba(100, 199, 212, 0.12);
         }
 
         .stat span {

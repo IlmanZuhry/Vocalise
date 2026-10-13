@@ -44,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TALKLAB - Daftar Akun</title>
+    <title>Vocalise - Daftar Akun</title>
     <link rel="stylesheet" href="style3.css">
     <style>
         .alert {
@@ -75,10 +75,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div class="login-left">
 
             <div class="brand">
-                <img src="assets/ayooo.png" class="brand-logo" alt="Logo">
-                <span class="brand-text">
-                    <span class="talk">TALK</span><span class="lab">LAB</span>
-                </span>
+                <span class="brand-text">Vocalise</span>
             </div>
 
             <div class="hero-illustration">

@@ -139,7 +139,7 @@ $ebooks = $app->getEbooks($search_query);
         }
 
         .ebook-card-footer .btn-primary:hover {
-            background-color: #c89555;
+            background-color: #245B7A;
         }
 
         .ebook-card-footer .btn-primary:active {

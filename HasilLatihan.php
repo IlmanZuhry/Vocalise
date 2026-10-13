@@ -36,7 +36,7 @@ function statusLabel($status) {
 
 function scoreColor($score) {
 	if ($score >= 80) return '#027a48';
-	if ($score >= 60) return '#b8752b';
+	if ($score >= 60) return '#245B7A';
 	return '#b42318';
 }
 ?>
@@ -120,7 +120,7 @@ function scoreColor($score) {
       border-radius: 50%;
       right: -36px;
       top: -36px;
-      background: rgb(210 160 107 / 0.12);
+      background: rgba(100, 199, 212, 0.12);
     }
 
     .stat-card span {
@@ -371,7 +371,7 @@ function scoreColor($score) {
     }
 
     .feedback-full h4 {
-      color: #b8752b;
+      color: #245B7A;
       font-size: 14px;
       margin: 0 0 10px;
     }

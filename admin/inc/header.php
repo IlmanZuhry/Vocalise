@@ -178,7 +178,6 @@ if (!$mentor) {
 
 <header class="header">
     <div class="header-left">
-        <img src="../assets/logo_voca.png" class="logo-header" alt="Logo">
         <span class="brand-text">Vocalise</span>
     </div>
 

@@ -109,6 +109,18 @@ p[style*="color:#64C7D4"] { color: var(--vocalise-cyan) !important; }
 .quick-card.card-penilaian::before, .quick-card.card-ebook::before,
 .quick-card.card-materi::before { background: linear-gradient(135deg, var(--vocalise-blue), var(--vocalise-cyan)) !important; }
 
+/* Keep decorative card bubbles and feature icons inside the Vocalise palette. */
+.stat-card::before, .stat-card::after, .stat::before, .stat::after,
+.quick-card::before, .quick-card::after, .card::before, .card::after {
+  border-color: transparent !important;
+}
+.stat-card::after, .stat::after { background: rgba(100, 199, 212, .12) !important; }
+.feature-card .feature-icon, .icon-box, .activity-item .icon-box,
+.materi-icon, .latihan-icon, .ebook-icon, .komunitas-icon {
+  background: var(--vocalise-blue) !important;
+}
+.ebook-icon { background: var(--vocalise-cyan) !important; }
+
 /* Landing-page variables */
 body:has(.landing-page), body:has(.hero-section) { background: var(--vocalise-white) !important; }
 .landing-hero { background: var(--vocalise-ice) !important; }
