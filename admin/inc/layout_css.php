@@ -8,7 +8,7 @@
 
   body {
     display: flex;
-    background: #f5f5f5;
+    background: #EAF5F7;
   }
 
   /* ===== HEADER ===== */
@@ -19,7 +19,7 @@
     height: 90px;
     width: 100%;
     padding: 12px 32px;
-    background: #0e1e4d;
+    background: #102A43;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -101,7 +101,7 @@
   /* ===== SIDEBAR ===== */
   .sidebar {
     width: 260px;
-    background: #1c407a;
+    background: #245B7A;
     color: white;
     padding: 140px 24px 24px;
     min-height: 100vh;
@@ -126,7 +126,7 @@
 
   .sidebar ul li.active,
   .sidebar ul li:hover {
-    background: #476097;
+    background: #245B7A;
   }
 
   .menu-item {
@@ -154,7 +154,7 @@
   }
 
   .menu-item.active {
-    background: #d2a06b !important;
+    background: #64C7D4 !important;
     color: #ffffff;
     font-weight: 600;
   }
@@ -181,7 +181,7 @@
   }
 
   .admin-page-title {
-    color: #10204f;
+    color: #102A43;
     font-size: 36px;
     margin-bottom: 8px;
   }
@@ -215,7 +215,7 @@
 
   .admin-card h2,
   .admin-card h3 {
-    color: #10204f;
+    color: #102A43;
     margin-bottom: 8px;
   }
 
@@ -225,7 +225,7 @@
   }
 
   .admin-button {
-    background: #10204f;
+    background: #102A43;
     border-radius: 8px;
     color: #fff;
     display: inline-block;
@@ -235,3 +235,4 @@
     text-decoration: none;
   }
 </style>
+<link rel="stylesheet" href="../brand-theme.css">

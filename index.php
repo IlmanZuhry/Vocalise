@@ -12,18 +12,18 @@
         rel="stylesheet">
     <style>
         :root {
-            --primary-blue: #0A2647;
-            --primary-dark: #06182e;
-            --accent-gold: #D4AF37;
-            --accent-gold-light: #F4D03F;
+            --primary-blue: #102A43;
+            --primary-dark: #102A43;
+            --accent-gold: #64C7D4;
+            --accent-gold-light: #64C7D4;
             --white: #FFFFFF;
-            --off-white: #F9FAFB;
+            --off-white: #EAF5F7;
             --text-dark: #1A1A1A;
             --text-light: #666666;
-            --gradient-gold: linear-gradient(135deg, #D4AF37 0%, #F4D03F 100%);
-            --gradient-blue: linear-gradient(135deg, #0A2647 0%, #144272 100%);
+            --gradient-gold: linear-gradient(135deg, #64C7D4 0%, #64C7D4 100%);
+            --gradient-blue: linear-gradient(135deg, #102A43 0%, #102A43 100%);
             --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.05);
-            --shadow-gold: 0 10px 20px rgba(212, 175, 55, 0.2);
+            --shadow-gold: 0 10px 20px rgba(100, 199, 212, 0.2);
             --font-heading: 'Playfair Display', serif;
             --font-body: 'Inter', sans-serif;
             --transition: all 0.3s ease;
@@ -125,7 +125,7 @@
 
         .btn-gold:hover {
             transform: translateY(-3px);
-            box-shadow: 0 15px 30px rgba(212, 175, 55, 0.3);
+            box-shadow: 0 15px 30px rgba(100, 199, 212, 0.3);
         }
 
         .btn-outline-blue {
@@ -208,8 +208,8 @@
             display: flex;
             align-items: center;
             position: relative;
-            background: radial-gradient(circle at top right, rgba(212, 175, 55, 0.1), transparent 40%),
-                radial-gradient(circle at bottom left, rgba(10, 38, 71, 0.05), transparent 40%);
+            background: radial-gradient(circle at top right, rgba(100, 199, 212, 0.1), transparent 40%),
+                radial-gradient(circle at bottom left, rgba(16, 42, 67, 0.05), transparent 40%);
         }
 
         .hero-content {
@@ -238,7 +238,7 @@
             box-shadow: var(--shadow-soft);
             position: relative;
             z-index: 2;
-            border: 1px solid rgba(212, 175, 55, 0.2);
+            border: 1px solid rgba(100, 199, 212, 0.2);
         }
 
         .hero-card::before {
@@ -264,7 +264,7 @@
         .stat-icon {
             width: 50px;
             height: 50px;
-            background: rgba(10, 38, 71, 0.05);
+            background: rgba(16, 42, 67, 0.05);
             border-radius: 12px;
             display: flex;
             align-items: center;
@@ -526,7 +526,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(135deg, rgba(212, 175, 55, 0.05) 0%, rgba(10, 38, 71, 0.05) 100%);
+            background: linear-gradient(135deg, rgba(100, 199, 212, 0.05) 0%, rgba(16, 42, 67, 0.05) 100%);
             opacity: 0;
             transition: opacity 0.4s ease;
             z-index: -1;
@@ -554,7 +554,7 @@
 
         .feature-card:hover {
             transform: translateY(-15px) scale(1.02);
-            box-shadow: 0 20px 40px rgba(10, 38, 71, 0.15);
+            box-shadow: 0 20px 40px rgba(16, 42, 67, 0.15);
             border-color: var(--accent-gold);
         }
 
@@ -573,7 +573,7 @@
             color: var(--accent-gold);
             font-size: 2.5rem;
             margin-bottom: 25px;
-            box-shadow: 0 10px 20px rgba(10, 38, 71, 0.3);
+            box-shadow: 0 10px 20px rgba(16, 42, 67, 0.3);
             transition: all 0.4s ease;
             position: relative;
             animation: floatIcon 3s ease-in-out infinite;
@@ -595,7 +595,7 @@
 
         .feature-card:hover .feature-icon {
             transform: scale(1.1) rotate(6deg);
-            box-shadow: 0 15px 30px rgba(212, 175, 55, 0.4);
+            box-shadow: 0 15px 30px rgba(100, 199, 212, 0.4);
             background: var(--gradient-gold);
             color: var(--primary-blue);
             animation: none;
@@ -629,7 +629,7 @@
 
         .faq-item.active {
             border-color: var(--accent-gold);
-            box-shadow: 0 15px 30px rgba(212, 175, 55, 0.15);
+            box-shadow: 0 15px 30px rgba(100, 199, 212, 0.15);
         }
 
         .faq-question {
@@ -649,7 +649,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background: rgba(10, 38, 71, 0.05);
+            background: rgba(16, 42, 67, 0.05);
             border-radius: 50%;
             color: var(--accent-gold);
             transition: var(--transition);
@@ -678,7 +678,7 @@
 
         .mentor-card:hover {
             transform: translateY(-10px);
-            box-shadow: 0 20px 40px rgba(10, 38, 71, 0.1) !important;
+            box-shadow: 0 20px 40px rgba(16, 42, 67, 0.1) !important;
             border-bottom: 4px solid var(--accent-gold) !important;
         }
     </style>

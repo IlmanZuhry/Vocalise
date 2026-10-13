@@ -279,9 +279,9 @@ $practiceScripts = [
       gap: 8px;
     }
 
-    .btn-primary { background: #d2a06b; color: #fff; }
-    .btn-dark { background: #10204f; color: #fff; }
-    .btn-muted { background: #eef2f7; color: #344054; }
+    .btn-primary { background: #64C7D4; color: #fff; }
+    .btn-dark { background: #102A43; color: #fff; }
+    .btn-muted { background: #EAF5F7; color: #344054; }
     .btn-danger { background: #b42318; color: #fff; }
     .btn:disabled { cursor: not-allowed; opacity: 0.55; }
 
@@ -296,7 +296,7 @@ $practiceScripts = [
     .camera-card.interactive:hover {
       transform: translateY(-4px);
       box-shadow: 0 16px 34px rgb(16 32 79 / 0.12);
-      border-color: #d2a06b;
+      border-color: #64C7D4;
     }
 
     .camera-btn {
@@ -318,8 +318,8 @@ $practiceScripts = [
       opacity: 0.55;
     }
 
-    .btn-primary-camera { background: #d2a06b; color: #fff; }
-    .btn-muted-camera { background: #eef2f7; color: #344054; }
+    .btn-primary-camera { background: #64C7D4; color: #fff; }
+    .btn-muted-camera { background: #EAF5F7; color: #344054; }
     .btn-danger-camera { background: #b42318; color: #fff; }
 
     .start-recording-cta {
@@ -353,7 +353,7 @@ $practiceScripts = [
       align-items: center;
       gap: 8px;
       border-radius: 999px;
-      background: #eef2f7;
+      background: #EAF5F7;
       color: #344054;
       padding: 8px 12px;
       font-size: 12px;
@@ -376,7 +376,7 @@ $practiceScripts = [
       width: 4px;
       height: 8px;
       border-radius: 999px;
-      background: #d2a06b;
+      background: #64C7D4;
       opacity: 0.45;
     }
 
@@ -439,8 +439,8 @@ $practiceScripts = [
     }
 
     .feature-card.active {
-      border-color: #d2a06b;
-      background: #fffaf3;
+      border-color: #64C7D4;
+      background: #EAF5F7;
     }
 
     .feature-card:hover {
@@ -467,7 +467,7 @@ $practiceScripts = [
       align-items: center;
       justify-content: center;
       margin-bottom: 18px;
-      background: #10204f;
+      background: #102A43;
       color: #fff;
       font-size: 30px;
       box-shadow: 0 10px 22px rgb(16 32 79 / 0.18);
@@ -479,7 +479,7 @@ $practiceScripts = [
     .feature-card[data-feature="ai"] .feature-icon { background: #b8752b; }
 
     .feature-card h2 {
-      color: #10204f;
+      color: #102A43;
       font-size: 24px;
       margin-bottom: 10px;
       position: relative;
@@ -501,7 +501,7 @@ $practiceScripts = [
       padding: 7px 12px;
       font-size: 12px;
       font-weight: 800;
-      background: #eef2f7;
+      background: #EAF5F7;
       color: #344054;
     }
 
@@ -546,7 +546,7 @@ $practiceScripts = [
     }
 
     .panel-title h2 {
-      color: #10204f;
+      color: #102A43;
       font-size: 26px;
       margin-bottom: 8px;
     }
@@ -561,8 +561,8 @@ $practiceScripts = [
       display: flex;
       align-items: center;
       gap: 16px;
-      background: #fffaf3;
-      border: 1px solid #f2d7b8;
+      background: #EAF5F7;
+      border: 1px solid #CDE5EA;
       border-radius: 18px;
       padding: 14px 16px;
       margin-bottom: 22px;
@@ -577,7 +577,7 @@ $practiceScripts = [
 
     .coach-strip strong {
       display: block;
-      color: #10204f;
+      color: #102A43;
       font-size: 18px;
       margin-bottom: 3px;
     }
@@ -589,7 +589,7 @@ $practiceScripts = [
     }
 
     .topic-box {
-      background: #10204f;
+      background: #102A43;
       border-radius: 18px;
       color: #fff;
       padding: 26px;
@@ -610,7 +610,7 @@ $practiceScripts = [
     }
 
     .topic-label {
-      color: #d2a06b;
+      color: #64C7D4;
       font-size: 13px;
       font-weight: 900;
       letter-spacing: 0.5px;
@@ -686,7 +686,7 @@ $practiceScripts = [
       background: #fff;
       padding: 12px;
       border-radius: 16px;
-      border: 1px solid #f2d7b8;
+      border: 1px solid #CDE5EA;
       text-align: center;
     }
 
@@ -697,7 +697,7 @@ $practiceScripts = [
     }
 
     .fokus-tag {
-      background: #10204f;
+      background: #102A43;
       color: #fff;
       font-size: 10px;
       font-weight: 900;
@@ -718,7 +718,7 @@ $practiceScripts = [
     }
 
     .simulation-sidebar h4 {
-      color: #10204f;
+      color: #102A43;
       font-size: 14px;
       font-weight: 900;
       text-transform: uppercase;
@@ -747,9 +747,9 @@ $practiceScripts = [
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      background: #fffaf3;
-      border: 1px solid #f2d7b8;
-      color: #d2a06b;
+      background: #EAF5F7;
+      border: 1px solid #CDE5EA;
+      color: #64C7D4;
       padding: 8px 16px;
       border-radius: 12px;
       font-weight: 900;
@@ -757,7 +757,7 @@ $practiceScripts = [
     }
 
     .streak-card {
-      background: #10204f;
+      background: #102A43;
       color: #fff;
       padding: 16px;
       border-radius: 18px;
@@ -787,13 +787,13 @@ $practiceScripts = [
     }
 
     .option-card.active {
-      border-color: #d2a06b;
-      background: #fffaf3;
+      border-color: #64C7D4;
+      background: #EAF5F7;
     }
 
     .option-card strong {
       display: block;
-      color: #10204f;
+      color: #102A43;
       font-size: 16px;
       margin-bottom: 5px;
     }
@@ -812,7 +812,7 @@ $practiceScripts = [
     }
 
     .control-box h3 {
-      color: #10204f;
+      color: #102A43;
       font-size: 17px;
       margin-bottom: 12px;
     }
@@ -835,8 +835,8 @@ $practiceScripts = [
     }
 
     .duration-btn.active {
-      border-color: #d2a06b;
-      background: #d2a06b;
+      border-color: #64C7D4;
+      background: #64C7D4;
       color: #fff;
     }
 
@@ -860,9 +860,9 @@ $practiceScripts = [
     }
 
     .category-btn.active {
-      border-color: #d2a06b;
-      background: #fffaf3;
-      color: #10204f;
+      border-color: #64C7D4;
+      background: #EAF5F7;
+      color: #102A43;
     }
 
     .script-layout {
@@ -892,7 +892,7 @@ $practiceScripts = [
     }
 
     .script-title {
-      color: #10204f;
+      color: #102A43;
       font-size: 28px;
       line-height: 1.25;
       margin: 0;
@@ -910,7 +910,7 @@ $practiceScripts = [
       margin: 4px 0;
       border-radius: 999px;
       padding: 3px 10px;
-      background: #fffaf3;
+      background: #EAF5F7;
       color: #b8752b;
       font-size: 13px;
       font-weight: 900;
@@ -918,7 +918,7 @@ $practiceScripts = [
     }
 
     .guide-card h3 {
-      color: #10204f;
+      color: #102A43;
       font-size: 18px;
       margin-bottom: 12px;
     }
@@ -976,7 +976,7 @@ $practiceScripts = [
       width: 5px;
       height: 9px;
       border-radius: 999px;
-      background: #d2a06b;
+      background: #64C7D4;
       opacity: 0.42;
     }
 
@@ -1012,7 +1012,7 @@ $practiceScripts = [
       display: flex;
       align-items: center;
       justify-content: center;
-      background: radial-gradient(circle at 35% 25%, #fff4e5, #d2a06b 48%, #10204f 100%);
+      background: radial-gradient(circle at 35% 25%, #EAF5F7, #64C7D4 48%, #102A43 100%);
       color: #fff;
       font-size: 58px;
       box-shadow: 0 18px 40px rgb(16 32 79 / 0.2);
@@ -1048,7 +1048,7 @@ $practiceScripts = [
     }
 
     .timer {
-      color: #10204f;
+      color: #102A43;
       font-size: 48px;
       font-weight: 900;
       line-height: 1;
@@ -1059,7 +1059,7 @@ $practiceScripts = [
     }
 
     .countdown-card {
-      background: #10204f;
+      background: #102A43;
       color: #fff;
       border-radius: 22px;
       padding: 24px;
@@ -1086,7 +1086,7 @@ $practiceScripts = [
     .status-pill {
       border-radius: 999px;
       padding: 9px 14px;
-      background: #eef2f7;
+      background: #EAF5F7;
       color: #344054;
       font-weight: 900;
       font-size: 13px;
@@ -1108,7 +1108,7 @@ $practiceScripts = [
     .meter-fill {
       width: 0;
       height: 100%;
-      background: #d2a06b;
+      background: #64C7D4;
       border-radius: 999px;
       transition: width 0.2s;
     }
@@ -1128,7 +1128,7 @@ $practiceScripts = [
     }
 
     .result-box h3 {
-      color: #10204f;
+      color: #102A43;
       margin-bottom: 12px;
     }
 
@@ -1166,7 +1166,7 @@ $practiceScripts = [
     }
 
     .score-item strong {
-      color: #10204f;
+      color: #102A43;
       font-size: 22px;
     }
 
@@ -1178,7 +1178,7 @@ $practiceScripts = [
       display: flex;
       align-items: center;
       justify-content: center;
-      background: conic-gradient(#d2a06b var(--score, 0%), #eef2f7 0);
+      background: conic-gradient(#64C7D4 var(--score, 0%), #EAF5F7 0);
       position: relative;
     }
 
@@ -1194,7 +1194,7 @@ $practiceScripts = [
     .score-ring strong {
       position: relative;
       z-index: 1;
-      color: #10204f;
+      color: #102A43;
       font-size: 24px;
     }
 
@@ -1231,7 +1231,7 @@ $practiceScripts = [
 
     .achievement strong {
       display: block;
-      color: #10204f;
+      color: #102A43;
       margin-bottom: 6px;
     }
 
@@ -1259,7 +1259,7 @@ $practiceScripts = [
     }
 
     .history-panel h2 {
-      color: #10204f;
+      color: #102A43;
       font-size: 24px;
       margin-bottom: 8px;
     }
@@ -1287,7 +1287,7 @@ $practiceScripts = [
 
     .history-card strong {
       display: block;
-      color: #10204f;
+      color: #102A43;
       line-height: 1.35;
       margin-bottom: 8px;
     }
@@ -1455,7 +1455,7 @@ $practiceScripts = [
         <div class="flex items-center justify-between mb-4">
           <h2 class="m-0">Riwayat Tantangan</h2>
           <?php if (count($challengeHistory) > 3): ?>
-            <a href="HasilLatihan.php" class="text-xs font-black text-[#d2a06b] uppercase tracking-wider hover:underline">Lihat Semua →</a>
+            <a href="HasilLatihan.php" class="text-xs font-black text-[#64C7D4] uppercase tracking-wider hover:underline">Lihat Semua →</a>
           <?php endif; ?>
         </div>
         <p>3 simulasi terakhir Anda. Selesaikan tantangan untuk melihat progres terbaru.</p>
@@ -1765,14 +1765,14 @@ $practiceScripts = [
         };
 
         const exitConfirmationModal = showExitDialog && (
-          <div className="fixed inset-0 z-[10000] flex items-center justify-center bg-[#10204f]/55 p-5 backdrop-blur-sm" role="dialog" aria-modal="true" aria-labelledby="exit-dialog-title">
+          <div className="fixed inset-0 z-[10000] flex items-center justify-center bg-[#102A43]/55 p-5 backdrop-blur-sm" role="dialog" aria-modal="true" aria-labelledby="exit-dialog-title">
             <div className="w-full max-w-md rounded-[28px] bg-white p-6 text-center shadow-2xl md:p-8">
-              <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-[#fffaf3] text-2xl text-[#d2a06b]">?</div>
-              <h2 id="exit-dialog-title" className="mt-5 text-2xl font-extrabold text-[#10204f]">Kembali ke menu?</h2>
+              <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-[#EAF5F7] text-2xl text-[#64C7D4]">?</div>
+              <h2 id="exit-dialog-title" className="mt-5 text-2xl font-extrabold text-[#102A43]">Kembali ke menu?</h2>
               <p className="mt-2 text-sm font-semibold leading-6 text-[#667085]">Sesi yang sedang berjalan akan dibatalkan dan progresnya tidak disimpan.</p>
               <div className="mt-6 grid gap-3 sm:grid-cols-2">
                 <button type="button" className="rounded-xl border border-[#d0d5dd] px-4 py-3 text-sm font-black text-[#344054] transition hover:bg-slate-50" onClick={() => setShowExitDialog(false)}>Lanjut Latihan</button>
-                <button type="button" className="rounded-xl bg-[#10204f] px-4 py-3 text-sm font-black text-white transition hover:bg-[#1c316c]" onClick={confirmExitSimulation}>Ya, Kembali</button>
+                <button type="button" className="rounded-xl bg-[#102A43] px-4 py-3 text-sm font-black text-white transition hover:bg-[#1c316c]" onClick={confirmExitSimulation}>Ya, Kembali</button>
               </div>
             </div>
           </div>
@@ -1920,10 +1920,10 @@ $practiceScripts = [
 
         if (view === "TRANSITION") {
           return (
-            <div className="fixed inset-0 z-[9999] flex flex-col items-center justify-center bg-[#10204f]/95 p-6 text-white backdrop-blur-xl">
+            <div className="fixed inset-0 z-[9999] flex flex-col items-center justify-center bg-[#102A43]/95 p-6 text-white backdrop-blur-xl">
               <button type="button" className="absolute left-6 top-6 rounded-xl border border-white/20 px-4 py-2 text-sm font-black text-white transition hover:bg-white/10" onClick={cancelSimulation}>← Kembali</button>
               <div className="text-center animate-in fade-in zoom-in duration-500">
-                <div className="mb-4 text-sm font-black uppercase tracking-[0.3em] text-[#d2a06b]">Simulasi Akan Dimulai</div>
+                <div className="mb-4 text-sm font-black uppercase tracking-[0.3em] text-[#64C7D4]">Simulasi Akan Dimulai</div>
                 <div className="text-[180px] font-black leading-none">{transitionCountdown > 0 ? transitionCountdown : 'MULAI'}</div>
                 <div className="mt-8 space-y-2">
                   <div className="text-2xl font-black">{modeCepat ? "Mode Respon Cepat" : simulasi.nama}</div>
@@ -1942,29 +1942,29 @@ $practiceScripts = [
               <div className="border-b border-slate-100 bg-white px-4 py-4 md:px-8">
                 <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4">
                   <div className="flex items-center gap-3">
-                    <button type="button" className="rounded-xl border border-slate-200 px-3 py-2 text-sm font-black text-[#10204f] transition hover:bg-slate-50" onClick={cancelSimulation}>← Kembali</button>
-                    <div className="h-11 w-11 rounded-2xl bg-[#10204f] flex items-center justify-center text-white text-xl">{modeCepat ? '⚡' : simulasi.personaIcon}</div>
+                    <button type="button" className="rounded-xl border border-slate-200 px-3 py-2 text-sm font-black text-[#102A43] transition hover:bg-slate-50" onClick={cancelSimulation}>← Kembali</button>
+                    <div className="h-11 w-11 rounded-2xl bg-[#102A43] flex items-center justify-center text-white text-xl">{modeCepat ? '⚡' : simulasi.personaIcon}</div>
                     <div>
-                      <div className="text-[10px] font-black uppercase tracking-widest text-[#d2a06b]">{modeCepat ? "Mode Respon Cepat" : simulasi.nama}</div>
-                      <div className="text-base font-black text-[#10204f]">{simulasi.persona}</div>
+                      <div className="text-[10px] font-black uppercase tracking-widest text-[#64C7D4]">{modeCepat ? "Mode Respon Cepat" : simulasi.nama}</div>
+                      <div className="text-base font-black text-[#102A43]">{simulasi.persona}</div>
                     </div>
                   </div>
                   <div className="flex items-center gap-5">
                   <div className="text-right">
                     <div className="text-[10px] font-black text-[#667085] uppercase tracking-wider">Progres</div>
-                    <div className="text-base font-black text-[#10204f]">{nomor + 1} <span className="text-xs opacity-40">/ {pertanyaan.length}</span></div>
+                    <div className="text-base font-black text-[#102A43]">{nomor + 1} <span className="text-xs opacity-40">/ {pertanyaan.length}</span></div>
                   </div>
                   <div className="h-9 w-px bg-slate-100"></div>
                   <div className="text-right">
                     <div className="text-[10px] font-black text-[#667085] uppercase">{fase === "persiapan" ? "Persiapan" : "Bicara"}</div>
-                    <div className={`text-3xl font-black tabular-nums ${fase === "menjawab" ? "text-red-500" : "text-[#10204f]"}`}>{formatTime(sisaWaktu)}</div>
+                    <div className={`text-3xl font-black tabular-nums ${fase === "menjawab" ? "text-red-500" : "text-[#102A43]"}`}>{formatTime(sisaWaktu)}</div>
                   </div>
                 </div>
                 </div>
               </div>
 
               <div className="h-1.5 w-full bg-slate-100">
-                <div className="h-full bg-[#d2a06b] transition-all duration-500" style={{ width: `${progres}%` }}></div>
+                <div className="h-full bg-[#64C7D4] transition-all duration-500" style={{ width: `${progres}%` }}></div>
               </div>
 
               <main className="flex-1 overflow-y-auto p-5 md:p-8" style={{ width: '100%', marginLeft: 0 }}>
@@ -1972,10 +1972,10 @@ $practiceScripts = [
                   {fase === "jawaban" ? (
                     <div className="text-center animate-in fade-in zoom-in duration-300">
                       <div className="mx-auto mb-6 flex h-24 w-24 items-center justify-center rounded-full bg-green-100 text-5xl text-green-600">✓</div>
-                      <h2 className="text-3xl font-black text-[#10204f]">Jawaban Berhasil Disimpan</h2>
+                      <h2 className="text-3xl font-black text-[#102A43]">Jawaban Berhasil Disimpan</h2>
                       <p className="text-lg font-bold text-[#667085] mb-8">Durasi: {lastDuration} Detik</p>
-                      <div className="text-sm font-black uppercase tracking-widest text-[#d2a06b]">Bersiap ke pertanyaan berikutnya</div>
-                      <div className="text-6xl font-black text-[#10204f] mt-4">{stepCountdown}</div>
+                      <div className="text-sm font-black uppercase tracking-widest text-[#64C7D4]">Bersiap ke pertanyaan berikutnya</div>
+                      <div className="text-6xl font-black text-[#102A43] mt-4">{stepCountdown}</div>
                     </div>
                   ) : (
                     <div className="w-full">
@@ -1985,13 +1985,13 @@ $practiceScripts = [
                           <span className="text-sm font-black text-[#667085] uppercase tracking-widest">{simulasi.persona}</span>
                         </div>
                         <div className="bg-white p-6 md:p-10 rounded-[28px] rounded-tl-none shadow-sm border border-slate-100 relative">
-                          <div className="text-2xl md:text-3xl font-bold text-[#10204f] leading-relaxed">{aktif.teks}</div>
+                          <div className="text-2xl md:text-3xl font-bold text-[#102A43] leading-relaxed">{aktif.teks}</div>
                           <div className="absolute -left-3 top-0 w-6 h-6 bg-white border-l border-t border-slate-100 transform -rotate-45"></div>
                         </div>
                       </div>
                       
                       <div className="text-center">
-                        <div className={`inline-flex items-center gap-3 rounded-full px-6 py-3 text-sm font-black transition-all ${fase === "menjawab" ? "bg-red-50 text-red-600 animate-pulse border border-red-100 shadow-lg shadow-red-500/10" : "bg-[#fffaf3] text-[#d2a06b] border border-[#f2d7b8]"}`}>
+                        <div className={`inline-flex items-center gap-3 rounded-full px-6 py-3 text-sm font-black transition-all ${fase === "menjawab" ? "bg-red-50 text-red-600 animate-pulse border border-red-100 shadow-lg shadow-red-500/10" : "bg-[#EAF5F7] text-[#64C7D4] border border-[#CDE5EA]"}`}>
                           {fase === "menjawab" ? <><span className="h-3 w-3 rounded-full bg-red-600"></span> SEDANG MEREKAM JAWABAN</> : "TAHAP PERSIAPAN"}
                         </div>
                         <p className="mt-5 text-base md:text-lg font-bold text-[#667085]">
@@ -2018,7 +2018,7 @@ $practiceScripts = [
                     <h4><span>🎯</span> Fokus Penilaian</h4>
                     <div className="flex flex-wrap gap-2">
                       {simulasi.fokus.map(f => (
-                        <span key={f} className="bg-[#10204f] text-white text-[10px] font-black px-3 py-1.5 rounded-lg">✓ {f}</span>
+                        <span key={f} className="bg-[#102A43] text-white text-[10px] font-black px-3 py-1.5 rounded-lg">✓ {f}</span>
                       ))}
                     </div>
                   </div>
@@ -2038,8 +2038,8 @@ $practiceScripts = [
 
         if (view === "RESULT") {
           return (
-            <div className="fixed inset-0 z-[9999] flex flex-col items-center justify-center bg-[#10204f]/95 p-6 text-white backdrop-blur-xl">
-              <div className="w-full max-w-2xl max-h-[90vh] overflow-y-auto no-scrollbar rounded-[40px] bg-white text-[#10204f] shadow-2xl">
+            <div className="fixed inset-0 z-[9999] flex flex-col items-center justify-center bg-[#102A43]/95 p-6 text-white backdrop-blur-xl">
+              <div className="w-full max-w-2xl max-h-[90vh] overflow-y-auto no-scrollbar rounded-[40px] bg-white text-[#102A43] shadow-2xl">
                 <div className="p-8 md:p-12 text-center">
                   <div className="mx-auto mb-6 flex h-24 w-24 items-center justify-center rounded-full bg-green-100 text-5xl text-green-600 animate-bounce">✓</div>
                   <h2 className="text-4xl font-black tracking-tight mb-2">🎉 Simulasi Selesai!</h2>
@@ -2051,7 +2051,7 @@ $practiceScripts = [
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
-                    <div className="rounded-[32px] bg-[#f8fafc] border border-[#eef2f7] p-8 text-left">
+                    <div className="rounded-[32px] bg-[#f8fafc] border border-[#EAF5F7] p-8 text-left">
                       <div className="topic-label mb-6 text-center">Statistik Sesi</div>
                       <div className="grid grid-cols-2 gap-4">
                         <div className="score-item border-none bg-white p-4 rounded-2xl shadow-sm text-center">
@@ -2073,14 +2073,14 @@ $practiceScripts = [
                       </div>
                     </div>
                     
-                    <div className="rounded-[32px] bg-[#10204f] p-8 text-left text-white shadow-xl shadow-[#10204f]/20">
-                      <div className="text-sm font-black text-[#d2a06b] mb-4 uppercase tracking-widest">Evaluasi Mandiri</div>
+                    <div className="rounded-[32px] bg-[#102A43] p-8 text-left text-white shadow-xl shadow-[#102A43]/20">
+                      <div className="text-sm font-black text-[#64C7D4] mb-4 uppercase tracking-widest">Evaluasi Mandiri</div>
                       <p className="text-sm font-semibold leading-6 text-white/75">Dengarkan ulang rekamanmu untuk menilai struktur jawaban, kejelasan suara, dan ketenangan saat menjawab.</p>
                     </div>
                   </div>
 
                   <div className="flex flex-col gap-4">
-                    <button className="btn btn-primary py-5 text-xl font-black shadow-xl shadow-[#d2a06b]/20" onClick={simpanRiwayat} disabled={isSaving || isSaved}>
+                    <button className="btn btn-primary py-5 text-xl font-black shadow-xl shadow-[#64C7D4]/20" onClick={simpanRiwayat} disabled={isSaving || isSaved}>
                       {isSaving ? 'Menyimpan...' : isSaved ? '✓ Tersimpan di Riwayat' : '💾 Simpan & Selesaikan'}
                     </button>
                     {isSaved && (
@@ -2101,38 +2101,38 @@ $practiceScripts = [
             <section className="camera-card p-6">
               <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
                 <div>
-                  <div className="text-sm font-black uppercase tracking-wide text-[#d2a06b]">Tantangan Bicara</div>
-                  <h2 className="mt-2 text-3xl font-extrabold text-[#10204f]">Latihan menjawab spontan</h2>
+                  <div className="text-sm font-black uppercase tracking-wide text-[#64C7D4]">Tantangan Bicara</div>
+                  <h2 className="mt-2 text-3xl font-extrabold text-[#102A43]">Latihan menjawab spontan</h2>
                   <p className="mt-2 max-w-2xl text-sm font-semibold leading-6 text-[#667085]">Pilih situasi, tentukan level, lalu jawab pertanyaan dengan mikrofon. Rekamanmu akan disimpan setelah tantangan selesai.</p>
                 </div>
-                <div className="shrink-0 whitespace-nowrap rounded-full bg-[#fffaf3] px-4 py-2 text-xs font-black uppercase tracking-wide text-[#7c4a12] ring-1 ring-[#f2d7b8]">3 langkah mudah</div>
+                <div className="shrink-0 whitespace-nowrap rounded-full bg-[#EAF5F7] px-4 py-2 text-xs font-black uppercase tracking-wide text-[#245B7A] ring-1 ring-[#CDE5EA]">3 langkah mudah</div>
               </div>
             </section>
 
             <section>
               <div className="mb-3 flex items-center justify-between gap-4">
                 <div>
-                  <div className="text-sm font-black uppercase tracking-wide text-[#d2a06b]">Pilih simulasi</div>
+                  <div className="text-sm font-black uppercase tracking-wide text-[#64C7D4]">Pilih simulasi</div>
                   <p className="mt-1 text-sm font-semibold text-[#667085]">Pilih situasi yang ingin kamu latih.</p>
                 </div>
-                {modeCepat && <span className="rounded-full bg-[#d2a06b] px-3 py-1.5 text-[10px] font-black text-white">RESPON CEPAT AKTIF</span>}
+                {modeCepat && <span className="rounded-full bg-[#64C7D4] px-3 py-1.5 text-[10px] font-black text-white">RESPON CEPAT AKTIF</span>}
               </div>
               <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
                 {simulasiPercakapan.map((item) => (
                   <button
                     key={item.id}
                     type="button"
-                    className={`camera-card interactive p-5 text-left transition ${!modeCepat && simulasi.id === item.id ? "border-[#d2a06b] bg-[#fffaf3]" : ""}`}
+                    className={`camera-card interactive p-5 text-left transition ${!modeCepat && simulasi.id === item.id ? "border-[#64C7D4] bg-[#EAF5F7]" : ""}`}
                     onClick={() => { setSimulasi(item); setModeCepat(false); }}
                   >
                     <div className="text-2xl">{item.personaIcon}</div>
-                    <h3 className="mt-3 text-xl font-extrabold text-[#10204f]">{item.nama}</h3>
+                    <h3 className="mt-3 text-xl font-extrabold text-[#102A43]">{item.nama}</h3>
                     <p className="mt-2 text-sm font-semibold leading-6 text-[#667085]">{item.deskripsi}</p>
                   </button>
                 ))}
-                <button type="button" className={`camera-card interactive p-5 text-left transition ${modeCepat ? "border-[#d2a06b] bg-[#fffaf3]" : ""}`} onClick={() => setModeCepat(true)}>
+                <button type="button" className={`camera-card interactive p-5 text-left transition ${modeCepat ? "border-[#64C7D4] bg-[#EAF5F7]" : ""}`} onClick={() => setModeCepat(true)}>
                   <div className="text-2xl">⚡</div>
-                  <h3 className="mt-3 text-xl font-extrabold text-[#10204f]">Respon Cepat</h3>
+                  <h3 className="mt-3 text-xl font-extrabold text-[#102A43]">Respon Cepat</h3>
                   <p className="mt-2 text-sm font-semibold leading-6 text-[#667085]">Jawab pertanyaan acak untuk melatih spontanitas dalam waktu singkat.</p>
                 </button>
               </div>
@@ -2141,25 +2141,25 @@ $practiceScripts = [
             <section className="camera-card overflow-hidden">
               <div className="space-y-6 p-6">
                 <div>
-                  <div className="text-sm font-black uppercase tracking-wide text-[#d2a06b]">Tantangan yang dipilih</div>
+                  <div className="text-sm font-black uppercase tracking-wide text-[#64C7D4]">Tantangan yang dipilih</div>
                   <div className="mt-3 flex items-center gap-4">
-                    <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-[#10204f] text-2xl text-white">{modeCepat ? '⚡' : simulasi.personaIcon}</div>
+                    <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-[#102A43] text-2xl text-white">{modeCepat ? '⚡' : simulasi.personaIcon}</div>
                     <div>
-                      <h3 className="text-2xl font-extrabold text-[#10204f]">{modeCepat ? "Tantangan Respon Cepat" : simulasi.nama}</h3>
+                      <h3 className="text-2xl font-extrabold text-[#102A43]">{modeCepat ? "Tantangan Respon Cepat" : simulasi.nama}</h3>
                       <p className="mt-1 text-sm font-semibold leading-6 text-[#667085]">{modeCepat ? "Pertanyaan akan dipilih secara acak saat latihan dimulai." : simulasi.pesanPersona}</p>
                     </div>
                   </div>
                   <div className="mt-5 grid grid-cols-3 gap-3">
-                    <div className="min-w-0 rounded-2xl bg-[#f8fafc] px-3 py-3 text-center ring-1 ring-[#e5e7eb]"><span className="block text-[10px] font-black uppercase tracking-wide text-[#667085]">Soal</span><strong className="mt-1 block text-lg text-[#10204f]">{currentRules.jumlah}</strong></div>
-                    <div className="min-w-0 rounded-2xl bg-[#f8fafc] px-3 py-3 text-center ring-1 ring-[#e5e7eb]"><span className="block text-[10px] font-black uppercase tracking-wide text-[#667085]">Siapkan</span><strong className="mt-1 block text-lg text-[#10204f]">{currentRules.persiapan} dtk</strong></div>
-                    <div className="min-w-0 rounded-2xl bg-[#f8fafc] px-3 py-3 text-center ring-1 ring-[#e5e7eb]"><span className="block text-[10px] font-black uppercase tracking-wide text-[#667085]">Jawab</span><strong className="mt-1 block text-lg text-[#10204f]">{currentRules.jawab} dtk</strong></div>
+                    <div className="min-w-0 rounded-2xl bg-[#f8fafc] px-3 py-3 text-center ring-1 ring-[#e5e7eb]"><span className="block text-[10px] font-black uppercase tracking-wide text-[#667085]">Soal</span><strong className="mt-1 block text-lg text-[#102A43]">{currentRules.jumlah}</strong></div>
+                    <div className="min-w-0 rounded-2xl bg-[#f8fafc] px-3 py-3 text-center ring-1 ring-[#e5e7eb]"><span className="block text-[10px] font-black uppercase tracking-wide text-[#667085]">Siapkan</span><strong className="mt-1 block text-lg text-[#102A43]">{currentRules.persiapan} dtk</strong></div>
+                    <div className="min-w-0 rounded-2xl bg-[#f8fafc] px-3 py-3 text-center ring-1 ring-[#e5e7eb]"><span className="block text-[10px] font-black uppercase tracking-wide text-[#667085]">Jawab</span><strong className="mt-1 block text-lg text-[#102A43]">{currentRules.jawab} dtk</strong></div>
                   </div>
                 </div>
                 <div className="rounded-[18px] border border-[#e5e7eb] bg-[#fbfbfd] p-5">
                   <div className="text-sm font-extrabold text-[#667085]">Tingkat Kesulitan</div>
                   <div className="mt-3 grid gap-2 md:grid-cols-3">
                     {tingkatKesulitan.map((item) => (
-                      <button key={item.nama} type="button" className={`rounded-xl px-4 py-3 text-left text-sm font-extrabold transition ${level.nama === item.nama ? "bg-[#10204f] text-white shadow-lg shadow-[#10204f]/20" : "bg-white text-[#344054] ring-1 ring-[#d0d5dd]"}`} onClick={() => setLevel(item)}>
+                      <button key={item.nama} type="button" className={`rounded-xl px-4 py-3 text-left text-sm font-extrabold transition ${level.nama === item.nama ? "bg-[#102A43] text-white shadow-lg shadow-[#102A43]/20" : "bg-white text-[#344054] ring-1 ring-[#d0d5dd]"}`} onClick={() => setLevel(item)}>
                         <span className="block">{item.nama}</span>
                         <span className={`mt-1 block text-xs font-semibold ${level.nama === item.nama ? "text-white/70" : "text-[#667085]"}`}>{item.deskripsi}</span>
                       </button>
@@ -2169,7 +2169,7 @@ $practiceScripts = [
               </div>
               <div className="flex flex-col gap-4 border-t border-[#e5e7eb] p-6 lg:flex-row lg:items-center lg:justify-between">
                 <p className="text-sm font-semibold leading-6 text-[#667085]">Pastikan mikrofon aktif. Kamu akan diberi waktu untuk berpikir sebelum mulai menjawab.</p>
-                <button className="btn btn-primary shrink-0 px-8 py-4 text-lg font-black shadow-xl shadow-[#d2a06b]/20" onClick={startSimulationFlow}>Mulai Tantangan</button>
+                <button className="btn btn-primary shrink-0 px-8 py-4 text-lg font-black shadow-xl shadow-[#64C7D4]/20" onClick={startSimulationFlow}>Mulai Tantangan</button>
               </div>
             </section>
           </div>
@@ -2590,8 +2590,8 @@ $practiceScripts = [
           <section className="camera-card p-6">
             <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
               <div>
-                <div className="text-sm font-black uppercase tracking-wide text-[#d2a06b]">Langkah {practiceStep} · {practiceStepLabel}</div>
-                <h2 className="mt-2 text-3xl font-extrabold text-[#10204f]">Latihan dengan webcam</h2>
+                <div className="text-sm font-black uppercase tracking-wide text-[#64C7D4]">Langkah {practiceStep} · {practiceStepLabel}</div>
+                <h2 className="mt-2 text-3xl font-extrabold text-[#102A43]">Latihan dengan webcam</h2>
                 <p className="mt-2 text-sm font-semibold leading-6 text-[#667085]">Rekam latihan horizontal untuk mengecek ekspresi, kontak mata, dan bahasa tubuhmu.</p>
               </div>
               <div className="flex flex-wrap gap-3">
@@ -2609,10 +2609,10 @@ $practiceScripts = [
                 key={mode.name}
                 type="button"
                 onClick={() => setActiveMode(mode)}
-                className={`camera-card interactive p-5 text-left transition ${activeMode.name === mode.name ? "border-[#d2a06b] bg-[#fffaf3]" : ""}`}
+                className={`camera-card interactive p-5 text-left transition ${activeMode.name === mode.name ? "border-[#64C7D4] bg-[#EAF5F7]" : ""}`}
               >
-                <div className="text-sm font-black uppercase tracking-wide text-[#d2a06b]">Mode latihan</div>
-                <h3 className="mt-2 text-xl font-extrabold text-[#10204f]">{mode.name}</h3>
+                <div className="text-sm font-black uppercase tracking-wide text-[#64C7D4]">Mode latihan</div>
+                <h3 className="mt-2 text-xl font-extrabold text-[#102A43]">{mode.name}</h3>
                 <p className="mt-2 text-sm font-semibold leading-6 text-[#667085]">{mode.objective}</p>
               </button>
             ))}
@@ -2623,8 +2623,8 @@ $practiceScripts = [
               <div className="border-b border-[#e5e7eb] p-6">
                 <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
                   <div>
-                    <div className="text-sm font-black uppercase tracking-wide text-[#d2a06b]">Topik latihan</div>
-                    <h3 className="mt-2 text-2xl font-extrabold leading-snug text-[#10204f]">{topic}</h3>
+                    <div className="text-sm font-black uppercase tracking-wide text-[#64C7D4]">Topik latihan</div>
+                    <h3 className="mt-2 text-2xl font-extrabold leading-snug text-[#102A43]">{topic}</h3>
                   </div>
                   <div className="flex flex-wrap items-center gap-2">
                     <div className={`camera-status-pill ${cameraReady ? "live" : ""}`}>
@@ -2643,8 +2643,8 @@ $practiceScripts = [
               </div>
 
               <div className="grid gap-6 p-6 lg:grid-cols-[minmax(0,1fr)_240px]">
-                <div className={`relative overflow-hidden rounded-[18px] bg-[#10204f] transition duration-300 ${isRecording ? "recording-glow" : ""}`}>
-                  <video ref={liveVideoRef} className="aspect-video w-full bg-[#10204f] object-contain" style={{ transform: shouldFlipCamera ? 'scaleX(-1)' : 'none' }} autoPlay muted playsInline></video>
+                <div className={`relative overflow-hidden rounded-[18px] bg-[#102A43] transition duration-300 ${isRecording ? "recording-glow" : ""}`}>
+                  <video ref={liveVideoRef} className="aspect-video w-full bg-[#102A43] object-contain" style={{ transform: shouldFlipCamera ? 'scaleX(-1)' : 'none' }} autoPlay muted playsInline></video>
                   <div className="pointer-events-none absolute left-4 top-4 flex items-center gap-2 rounded-full bg-black/35 px-3 py-2 text-xs font-black uppercase tracking-wide text-white">
                     {isRecording && <span className="recording-dot"></span>}
                     {recordingStatus}
@@ -2663,11 +2663,11 @@ $practiceScripts = [
                 <div className="space-y-4">
                   <div className="rounded-[18px] border border-[#e5e7eb] bg-[#fbfbfd] p-5">
                     <div className="text-sm font-extrabold text-[#667085]">Timer latihan</div>
-                    <div className="mt-2 text-6xl font-black tracking-tight text-[#10204f]">{formatCameraTime(remainingTime)}</div>
+                    <div className="mt-2 text-6xl font-black tracking-tight text-[#102A43]">{formatCameraTime(remainingTime)}</div>
                     <div className="mt-4 h-3 overflow-hidden rounded-full bg-[#e5e7eb]">
-                      <div className="h-full rounded-full bg-[#d2a06b] transition-all" style={{ width: `${progress}%` }}></div>
+                      <div className="h-full rounded-full bg-[#64C7D4] transition-all" style={{ width: `${progress}%` }}></div>
                     </div>
-                    <div className="mt-3 text-xs font-black uppercase tracking-wide text-[#d2a06b]">{recordingStatus}</div>
+                    <div className="mt-3 text-xs font-black uppercase tracking-wide text-[#64C7D4]">{recordingStatus}</div>
                   </div>
 
                   <div className="rounded-[18px] border border-[#e5e7eb] bg-[#fbfbfd] p-5">
@@ -2684,7 +2684,7 @@ $practiceScripts = [
                           }}
                           className={`rounded-xl px-4 py-2 text-sm font-extrabold transition ${
                             selectedDuration === duration.seconds
-                              ? "bg-[#d2a06b] text-white"
+                              ? "bg-[#64C7D4] text-white"
                               : "bg-white text-[#344054] ring-1 ring-[#d0d5dd]"
                           }`}
                         >
@@ -2698,13 +2698,13 @@ $practiceScripts = [
 
               <div className="flex flex-col gap-4 border-t border-[#e5e7eb] p-6 lg:flex-row lg:items-center lg:justify-between">
                 <div>
-                  <div className="text-sm font-black uppercase tracking-wide text-[#d2a06b]">Langkah latihan</div>
+                  <div className="text-sm font-black uppercase tracking-wide text-[#64C7D4]">Langkah latihan</div>
                   <p className="mt-1 max-w-2xl text-sm font-semibold leading-6 text-[#667085]">{instruction}</p>
                   <div className="mt-3 grid gap-2 md:grid-cols-2">
                     <div className="rounded-2xl bg-[#f8fafc] px-4 py-3 text-sm font-bold text-[#344054] ring-1 ring-[#e5e7eb]">
                       Tujuan: {activeMode.objective}
                     </div>
-                    <div className="rounded-2xl bg-[#fffaf3] px-4 py-3 text-sm font-bold text-[#7c4a12] ring-1 ring-[#f2d7b8]">
+                    <div className="rounded-2xl bg-[#EAF5F7] px-4 py-3 text-sm font-bold text-[#245B7A] ring-1 ring-[#CDE5EA]">
                       Tips: {speakingTip}
                     </div>
                   </div>
@@ -2712,7 +2712,7 @@ $practiceScripts = [
                 <div className="hidden flex-wrap gap-3">
                   <button type="button" className="camera-btn btn-primary-camera start-recording-cta" onClick={startRecording} disabled={isRecording}>Start Recording</button>
                   <button type="button" className="camera-btn btn-danger-camera" onClick={stopRecording} disabled={!isRecording}>Stop Recording</button>
-                  <button type="button" className="camera-btn btn-primary-camera" onClick={saveCameraPractice} disabled={!recordedUrl || isRecording || isSaving || isSaved} style={{ background: '#10204f' }}>💾 Simpan Riwayat</button>
+                  <button type="button" className="camera-btn btn-primary-camera" onClick={saveCameraPractice} disabled={!recordedUrl || isRecording || isSaving || isSaved} style={{ background: '#102A43' }}>💾 Simpan Riwayat</button>
                   <button type="button" className="camera-btn btn-primary-camera" onClick={submitToMentor} disabled={!isSaved || isSubmitted} style={{ background: '#027a48' }}>📤 Kirim ke Mentor</button>
                 </div>
                 <div className="flex flex-wrap gap-3">
@@ -2753,9 +2753,9 @@ $practiceScripts = [
               {recordedUrl && (
                 <>
               <div className="camera-card p-6">
-                <h2 className="text-2xl font-extrabold text-[#10204f]">Replay Result</h2>
+                <h2 className="text-2xl font-extrabold text-[#102A43]">Replay Result</h2>
                 <p className="mt-2 text-sm font-semibold leading-6 text-[#667085]">{recordedUrl ? "Putar ulang hasil rekaman terakhir." : "Hasil recording akan muncul di sini."}</p>
-                <div className="mt-5 overflow-hidden rounded-[18px] bg-[#10204f]">
+                <div className="mt-5 overflow-hidden rounded-[18px] bg-[#102A43]">
                   {recordedUrl ? (
                     <video ref={replayVideoRef} className="aspect-video w-full object-contain" src={recordedUrl} controls></video>
                   ) : (
@@ -2765,7 +2765,7 @@ $practiceScripts = [
               </div>
 
               <div className="camera-card p-6">
-                <h2 className="text-2xl font-extrabold text-[#10204f]">Checklist Evaluasi Mandiri</h2>
+                <h2 className="text-2xl font-extrabold text-[#102A43]">Checklist Evaluasi Mandiri</h2>
                 <p className="mt-2 text-sm font-semibold leading-6 text-[#667085]">Tandai setelah melihat ulang rekamanmu. Checklist ini bukan penilaian otomatis.</p>
                 <div className="mt-4 grid gap-3">
                   {focusItems.map((item) => (
@@ -2777,7 +2777,7 @@ $practiceScripts = [
                         focusProgress[item]
                           ? "bg-[#ecfdf3] text-[#027a48] ring-[#abefc6]"
                           : isRecording
-                            ? "bg-[#fffaf3] text-[#7c4a12] ring-[#f2d7b8]"
+                            ? "bg-[#EAF5F7] text-[#245B7A] ring-[#CDE5EA]"
                             : "bg-[#f8fafc] text-[#344054] ring-[#e5e7eb]"
                       }`}
                     >
@@ -2794,7 +2794,7 @@ $practiceScripts = [
 
           <section className="camera-card p-6">
             <div className="mb-5">
-              <h2 className="text-2xl font-extrabold text-[#10204f]">History Camera Practice</h2>
+              <h2 className="text-2xl font-extrabold text-[#102A43]">History Camera Practice</h2>
               <p className="mt-1 text-sm font-semibold text-[#667085]">Riwayat latihan camera practice yang tersimpan di akun.</p>
             </div>
 
@@ -2806,17 +2806,17 @@ $practiceScripts = [
               <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
                 {history.map((item) => (
                   <article key={item.id} className="camera-card interactive rounded-[18px] border border-[#e5e7eb] bg-[#fbfbfd] p-4">
-                    <div className="history-video-card relative overflow-hidden rounded-2xl bg-[#10204f]">
+                    <div className="history-video-card relative overflow-hidden rounded-2xl bg-[#102A43]">
                       {item.videoUrl ? (
                         <video className="aspect-video w-full object-cover" src={item.videoUrl} controls></video>
                       ) : (
                         <div className="flex aspect-video items-center justify-center px-4 text-center text-sm font-bold text-white/75">Video tidak tersedia</div>
                       )}
                     </div>
-                    <h3 className="mt-4 text-base font-extrabold leading-snug text-[#10204f]">{item.topic}</h3>
+                    <h3 className="mt-4 text-base font-extrabold leading-snug text-[#102A43]">{item.topic}</h3>
                     <div className="mt-3 flex flex-wrap gap-2">
-                      <span className="rounded-full bg-[#eef2f7] px-3 py-1 text-xs font-black text-[#344054]">{item.date}</span>
-                      <span className="rounded-full bg-[#fffaf3] px-3 py-1 text-xs font-black text-[#7c4a12]">{formatCameraTime(item.duration)}</span>
+                      <span className="rounded-full bg-[#EAF5F7] px-3 py-1 text-xs font-black text-[#344054]">{item.date}</span>
+                      <span className="rounded-full bg-[#EAF5F7] px-3 py-1 text-xs font-black text-[#245B7A]">{formatCameraTime(item.duration)}</span>
                       <span className="rounded-full bg-[#ecfdf3] px-3 py-1 text-xs font-black text-[#027a48]">{item.confidence}</span>
                     </div>
                   </article>
@@ -3048,7 +3048,7 @@ $practiceScripts = [
           <div className="fixed inset-0 z-[9999] flex flex-col items-center justify-center bg-slate-900/95 p-6 text-white backdrop-blur-xl">
             {overlayState === 'COUNTDOWN' && (
               <div className="text-center">
-                <div className="mb-4 text-sm font-black uppercase tracking-widest text-[#d2a06b]">Bersiap dalam</div>
+                <div className="mb-4 text-sm font-black uppercase tracking-widest text-[#64C7D4]">Bersiap dalam</div>
                 <div className="animate-pulse text-[180px] font-black leading-none">{countdown > 0 ? countdown : 'MULAI'}</div>
                 <div className="mt-8 text-xl font-bold opacity-75">{activeScript.title}</div>
               </div>
@@ -3068,7 +3068,7 @@ $practiceScripts = [
                   </div>
                   <div className="text-right">
                     <div className="text-sm font-bold opacity-50 mb-1">PROGRES LATIHAN</div>
-                    <div className="text-lg font-black text-[#d2a06b]">Paragraf {currentStep + 1} dari {paragraphs.length}</div>
+                    <div className="text-lg font-black text-[#64C7D4]">Paragraf {currentStep + 1} dari {paragraphs.length}</div>
                     <div className="text-xs font-bold opacity-40">{Math.round((currentStep + 1) / paragraphs.length * 100)}% Selesai</div>
                   </div>
                   <div className="text-right ml-8">
@@ -3078,12 +3078,12 @@ $practiceScripts = [
                 </div>
 
                 <div className="mt-6 h-2 w-full overflow-hidden rounded-full bg-white/10">
-                  <div className="h-full bg-[#d2a06b] transition-all duration-1000" style={{ width: `${progressPercent}%` }}></div>
+                  <div className="h-full bg-[#64C7D4] transition-all duration-1000" style={{ width: `${progressPercent}%` }}></div>
                 </div>
 
                 <div className="relative flex-1 py-12 teleprompter-container overflow-hidden">
                   {cue && (
-                    <div key={cue.text} className="cue-toast absolute top-0 left-1/2 -translate-x-1/2 z-10 flex items-center gap-3 rounded-2xl bg-[#d2a06b] px-6 py-3 font-black text-[#10204f] shadow-2xl">
+                    <div key={cue.text} className="cue-toast absolute top-0 left-1/2 -translate-x-1/2 z-10 flex items-center gap-3 rounded-2xl bg-[#64C7D4] px-6 py-3 font-black text-[#102A43] shadow-2xl">
                       <span className="text-2xl">{cue.type === 'JEDA' ? '⏸' : '🔊'}</span>
                       {cue.text}
                     </div>
@@ -3100,7 +3100,7 @@ $practiceScripts = [
                           {p.split('\n').map((line, li) => {
                             const isCue = line.includes('[JEDA]') || line.includes('[TEKANAN]');
                             if (isCue) {
-                              return <div key={li} className="my-6"><span className="rounded-full bg-[#d2a06b]/20 px-6 py-2 text-base font-black text-[#d2a06b] tracking-widest">{line}</span></div>;
+                              return <div key={li} className="my-6"><span className="rounded-full bg-[#64C7D4]/20 px-6 py-2 text-base font-black text-[#64C7D4] tracking-widest">{line}</span></div>;
                             }
                             return <p key={li} className="mb-4 leading-tight">{line}</p>;
                           })}
@@ -3119,7 +3119,7 @@ $practiceScripts = [
             )}
 
             {overlayState === 'RESULT' && (
-              <div className="w-full max-w-2xl max-h-[90vh] overflow-y-auto no-scrollbar rounded-[40px] bg-white text-[#10204f] shadow-2xl">
+              <div className="w-full max-w-2xl max-h-[90vh] overflow-y-auto no-scrollbar rounded-[40px] bg-white text-[#102A43] shadow-2xl">
                 <div className="p-8 md:p-12">
                   <div className="text-center mb-10">
                     <div className="mx-auto mb-6 flex h-24 w-24 items-center justify-center rounded-full bg-green-100 text-5xl text-green-600 animate-bounce">✓</div>
@@ -3128,10 +3128,10 @@ $practiceScripts = [
                   </div>
 
                   {/* Main Audio Playback - Focal Point */}
-                  <div className="mb-10 p-8 rounded-[32px] bg-[#10204f] text-white shadow-xl relative overflow-hidden">
+                  <div className="mb-10 p-8 rounded-[32px] bg-[#102A43] text-white shadow-xl relative overflow-hidden">
                     <div className="relative z-10">
-                      <div className="text-xs font-black uppercase tracking-[0.2em] text-[#d2a06b] mb-4">Dengarkan Rekamanmu</div>
-                      <audio src={recordedUrl} controls className="w-full h-14 accent-[#d2a06b]"></audio>
+                      <div className="text-xs font-black uppercase tracking-[0.2em] text-[#64C7D4] mb-4">Dengarkan Rekamanmu</div>
+                      <audio src={recordedUrl} controls className="w-full h-14 accent-[#64C7D4]"></audio>
                       <div className="mt-4 flex items-center gap-4 text-xs font-bold opacity-60">
                         <span className="flex items-center gap-1">⏱ {elapsed} Detik</span>
                         <span className="flex items-center gap-1">🎙 High Quality Audio</span>
@@ -3142,27 +3142,27 @@ $practiceScripts = [
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                     {/* Session recap: quality assessment is provided by a mentor after submission. */}
-                    <div className="p-6 rounded-3xl bg-[#f8fafc] border border-[#eef2f7]">
+                    <div className="p-6 rounded-3xl bg-[#f8fafc] border border-[#EAF5F7]">
                       <div className="topic-label mb-4">Evaluasi Mandiri</div>
                       <div className="space-y-4">
                         <div className="flex justify-between items-center">
                           <span className="text-sm font-bold text-[#667085]">Kelancaran</span>
-                          <span className="text-sm font-black text-[#10204f]">Dengarkan ulang</span>
+                          <span className="text-sm font-black text-[#102A43]">Dengarkan ulang</span>
                         </div>
                         <div className="flex justify-between items-center">
                           <span className="text-sm font-bold text-[#667085]">Jeda &amp; tekanan</span>
-                          <span className="text-sm font-black text-[#10204f]">Cek dari rekaman</span>
+                          <span className="text-sm font-black text-[#102A43]">Cek dari rekaman</span>
                         </div>
                         <div className="flex justify-between items-center">
                           <span className="text-sm font-bold text-[#667085]">Intonasi</span>
-                          <span className="text-sm font-black text-[#10204f]">Catat perbaikanmu</span>
+                          <span className="text-sm font-black text-[#102A43]">Catat perbaikanmu</span>
                         </div>
                       </div>
                       <p className="mt-5 text-xs font-bold leading-5 text-[#667085]">Penilaian detail tersedia setelah rekaman dikirim dan ditinjau mentor.</p>
                     </div>
 
                     {/* Practice Details */}
-                    <div className="p-6 rounded-3xl bg-[#f8fafc] border border-[#eef2f7]">
+                    <div className="p-6 rounded-3xl bg-[#f8fafc] border border-[#EAF5F7]">
                       <div className="topic-label mb-4">Detail Sesi</div>
                       <div className="space-y-3">
                         <div className="score-item border-none bg-white p-3 rounded-2xl">
@@ -3187,17 +3187,17 @@ $practiceScripts = [
                   <div className="mb-10">
                     <div className="topic-label mb-4">Rekomendasi Latihan</div>
                     <div className="grid grid-cols-1 gap-3">
-                      <div className="flex items-center gap-4 p-4 rounded-2xl bg-[#fffaf3] border border-[#f2d7b8]">
-                        <div className="h-10 w-10 flex-shrink-0 flex items-center justify-center rounded-xl bg-[#d2a06b] text-white">📈</div>
+                      <div className="flex items-center gap-4 p-4 rounded-2xl bg-[#EAF5F7] border border-[#CDE5EA]">
+                        <div className="h-10 w-10 flex-shrink-0 flex items-center justify-center rounded-xl bg-[#64C7D4] text-white">📈</div>
                         <div>
-                          <div className="text-sm font-black text-[#10204f]">Tantangan Bicara Lanjutan</div>
+                          <div className="text-sm font-black text-[#102A43]">Tantangan Bicara Lanjutan</div>
                           <p className="text-xs font-bold text-[#667085]">Latih spontanitasmu dengan topik acak.</p>
                         </div>
                       </div>
                       <div className="flex items-center gap-4 p-4 rounded-2xl bg-[#eff8ff] border border-[#d1e9ff]">
                         <div className="h-10 w-10 flex-shrink-0 flex items-center justify-center rounded-xl bg-[#175cd3] text-white">📹</div>
                         <div>
-                          <div className="text-sm font-black text-[#10204f]">Camera Practice</div>
+                          <div className="text-sm font-black text-[#102A43]">Camera Practice</div>
                           <p className="text-xs font-bold text-[#667085]">Evaluasi ekspresi wajah dan bahasa tubuh.</p>
                         </div>
                       </div>
@@ -3205,7 +3205,7 @@ $practiceScripts = [
                   </div>
 
                   <div className="flex flex-col gap-4">
-                    <button className="btn btn-primary py-5 text-xl shadow-xl shadow-[#d2a06b]/20" onClick={saveResult} disabled={isSaving || isSaved}>
+                    <button className="btn btn-primary py-5 text-xl shadow-xl shadow-[#64C7D4]/20" onClick={saveResult} disabled={isSaving || isSaved}>
                       {isSaving ? 'Menyimpan...' : isSaved ? '✓ Tersimpan di Riwayat' : '💾 Simpan & Selesaikan'}
                     </button>
                     
@@ -3230,7 +3230,7 @@ $practiceScripts = [
                       <button className="btn btn-muted py-4 font-black text-sm" onClick={() => { setScriptIndex(prev => prev + 1); setView('PREP'); setIsSaved(false); setIsSubmitted(false); setPracticeHistoryId(null); setStatusMsg(''); }}>📄 Naskah Berikutnya</button>
                       <button className="btn btn-muted py-4 font-black text-sm" onClick={() => { startPractice(); setIsSaved(false); setIsSubmitted(false); setPracticeHistoryId(null); setStatusMsg(''); }}>🔁 Latih Lagi</button>
                     </div>
-                    <button className="mt-4 text-xs font-black text-[#667085] hover:text-[#10204f] uppercase tracking-widest transition-colors" onClick={() => setView('PREP')}>Kembali ke Menu Utama</button>
+                    <button className="mt-4 text-xs font-black text-[#667085] hover:text-[#102A43] uppercase tracking-widest transition-colors" onClick={() => setView('PREP')}>Kembali ke Menu Utama</button>
                   </div>
                 </div>
               </div>
@@ -3243,8 +3243,8 @@ $practiceScripts = [
         <div className="space-y-6">
           <div className="camera-card p-6">
             <div>
-              <div className="text-sm font-black uppercase tracking-wide text-[#d2a06b]">Rekam Suara</div>
-              <h2 className="mt-2 text-3xl font-extrabold text-[#10204f]">Latihan membaca dengan panduan</h2>
+              <div className="text-sm font-black uppercase tracking-wide text-[#64C7D4]">Rekam Suara</div>
+              <h2 className="mt-2 text-3xl font-extrabold text-[#102A43]">Latihan membaca dengan panduan</h2>
               <p className="mt-2 max-w-2xl text-sm font-semibold leading-6 text-[#667085]">Pilih kategori dan naskah, lalu rekam suaramu sambil mengikuti panduan jeda serta penekanan kalimat.</p>
             </div>
           </div>
@@ -3257,12 +3257,12 @@ $practiceScripts = [
           </div>
 
           <div>
-            <div className="mb-3 text-sm font-black uppercase tracking-wide text-[#d2a06b]">Pilih kategori</div>
+            <div className="mb-3 text-sm font-black uppercase tracking-wide text-[#64C7D4]">Pilih kategori</div>
             <div className="grid gap-3 md:grid-cols-2">
             {practiceScripts.map((group) => (
               <button
                 key={group.category}
-                className={`camera-card interactive p-4 text-left transition ${activeCategory === group.category ? 'border-[#d2a06b] bg-[#fffaf3]' : ''}`}
+                className={`camera-card interactive p-4 text-left transition ${activeCategory === group.category ? 'border-[#64C7D4] bg-[#EAF5F7]' : ''}`}
                 onClick={() => { setActiveCategory(group.category); setScriptIndex(0); }}
               >
                 {group.category}
@@ -3284,7 +3284,7 @@ $practiceScripts = [
                 {activeScript.text}
               </div>
               <div className="mt-4 flex justify-end">
-                <button className="text-sm font-bold text-[#d2a06b]" onClick={() => setScriptIndex(prev => prev + 1)}>Lihat Naskah Lainnya →</button>
+                <button className="text-sm font-bold text-[#64C7D4]" onClick={() => setScriptIndex(prev => prev + 1)}>Lihat Naskah Lainnya →</button>
               </div>
             </article>
 
@@ -3656,9 +3656,9 @@ $practiceScripts = [
 
         if (view === "TRANSITION") {
           return (
-            <div className="fixed inset-0 z-[9999] flex flex-col items-center justify-center bg-[#10204f]/95 text-white backdrop-blur-xl">
+            <div className="fixed inset-0 z-[9999] flex flex-col items-center justify-center bg-[#102A43]/95 text-white backdrop-blur-xl">
               <div className="text-center animate-in fade-in zoom-in duration-500">
-                <div className="mb-4 text-sm font-black uppercase tracking-[0.3em] text-[#d2a06b]">Simulasi Akan Dimulai</div>
+                <div className="mb-4 text-sm font-black uppercase tracking-[0.3em] text-[#64C7D4]">Simulasi Akan Dimulai</div>
                 <div className="text-[180px] font-black leading-none">{transitionCountdown > 0 ? transitionCountdown : 'MULAI'}</div>
                 <div className="mt-8 space-y-2">
                   <div className="text-2xl font-black">{modeCepat ? "Mode Respon Cepat" : simulasi.nama}</div>
@@ -3675,28 +3675,28 @@ $practiceScripts = [
             <div className="fixed inset-0 z-[9999] flex flex-col bg-[#f7f7fc]">
               <div className="flex items-center justify-between bg-white px-8 py-4 shadow-sm">
                 <div className="flex items-center gap-6">
-                  <div className="h-12 w-12 rounded-2xl bg-[#10204f] flex items-center justify-center text-white text-xl">{simulasi.personaIcon}</div>
+                  <div className="h-12 w-12 rounded-2xl bg-[#102A43] flex items-center justify-center text-white text-xl">{simulasi.personaIcon}</div>
                   <div>
-                    <div className="text-[10px] font-black uppercase tracking-widest text-[#d2a06b]">{modeCepat ? "MODE RESPON CEPAT" : simulasi.nama}</div>
-                    <div className="text-lg font-black text-[#10204f]">{simulasi.persona}</div>
+                    <div className="text-[10px] font-black uppercase tracking-widest text-[#64C7D4]">{modeCepat ? "MODE RESPON CEPAT" : simulasi.nama}</div>
+                    <div className="text-lg font-black text-[#102A43]">{simulasi.persona}</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-8">
                   <div className="text-right">
                     <div className="text-[10px] font-black text-[#667085] uppercase tracking-wider">Progres Simulasi</div>
-                    <div className="text-lg font-black text-[#10204f]">Pertanyaan {nomor + 1} <span className="text-xs opacity-40">dari {pertanyaan.length}</span></div>
-                    <div className="text-[10px] font-bold text-[#d2a06b]">{Math.round((nomor / pertanyaan.length) * 100)}% Selesai</div>
+                    <div className="text-lg font-black text-[#102A43]">Pertanyaan {nomor + 1} <span className="text-xs opacity-40">dari {pertanyaan.length}</span></div>
+                    <div className="text-[10px] font-bold text-[#64C7D4]">{Math.round((nomor / pertanyaan.length) * 100)}% Selesai</div>
                   </div>
                   <div className="h-10 w-[2px] bg-slate-100"></div>
                   <div className="text-right">
                     <div className="text-[10px] font-black text-[#667085] uppercase">{fase === "persiapan" ? "Persiapan" : "Bicara"}</div>
-                    <div className={`text-4xl font-black tabular-nums ${fase === "menjawab" ? "text-red-500" : "text-[#10204f]"}`}>{formatTime(sisaWaktu)}</div>
+                    <div className={`text-4xl font-black tabular-nums ${fase === "menjawab" ? "text-red-500" : "text-[#102A43]"}`}>{formatTime(sisaWaktu)}</div>
                   </div>
                 </div>
               </div>
 
               <div className="h-1.5 w-full bg-slate-100">
-                <div className="h-full bg-[#d2a06b] transition-all duration-500" style={{ width: `${progres}%` }}></div>
+                <div className="h-full bg-[#64C7D4] transition-all duration-500" style={{ width: `${progres}%` }}></div>
               </div>
 
               <main className="flex-1 flex gap-8 p-12 overflow-hidden" style={{ width: '100%', marginLeft: 0 }}>
@@ -3704,10 +3704,10 @@ $practiceScripts = [
                   {fase === "jawaban" ? (
                     <div className="text-center animate-in fade-in zoom-in duration-300">
                       <div className="mx-auto mb-6 flex h-24 w-24 items-center justify-center rounded-full bg-green-100 text-5xl text-green-600">✓</div>
-                      <h2 className="text-3xl font-black text-[#10204f]">Jawaban Berhasil Disimpan</h2>
+                      <h2 className="text-3xl font-black text-[#102A43]">Jawaban Berhasil Disimpan</h2>
                       <p className="text-lg font-bold text-[#667085] mb-8">Durasi: {lastDuration} Detik</p>
-                      <div className="text-sm font-black uppercase tracking-widest text-[#d2a06b]">Bersiap ke pertanyaan berikutnya</div>
-                      <div className="text-6xl font-black text-[#10204f] mt-4">{stepCountdown}</div>
+                      <div className="text-sm font-black uppercase tracking-widest text-[#64C7D4]">Bersiap ke pertanyaan berikutnya</div>
+                      <div className="text-6xl font-black text-[#102A43] mt-4">{stepCountdown}</div>
                     </div>
                   ) : (
                     <div className="w-full max-w-4xl">
@@ -3717,13 +3717,13 @@ $practiceScripts = [
                           <span className="text-sm font-black text-[#667085] uppercase tracking-widest">{simulasi.persona}</span>
                         </div>
                         <div className="bg-white p-10 rounded-[40px] rounded-tl-none shadow-sm border border-slate-100 relative">
-                          <div className="text-3xl font-bold text-[#10204f] leading-relaxed italic">"{aktif.teks}"</div>
+                          <div className="text-3xl font-bold text-[#102A43] leading-relaxed italic">"{aktif.teks}"</div>
                           <div className="absolute -left-3 top-0 w-6 h-6 bg-white border-l border-t border-slate-100 transform -rotate-45"></div>
                         </div>
                       </div>
                       
                       <div className="text-center">
-                        <div className={`inline-flex items-center gap-3 rounded-full px-8 py-4 text-sm font-black transition-all ${fase === "menjawab" ? "bg-red-50 text-red-600 animate-pulse border border-red-100 shadow-lg shadow-red-500/10" : "bg-[#fffaf3] text-[#d2a06b] border border-[#f2d7b8]"}`}>
+                        <div className={`inline-flex items-center gap-3 rounded-full px-8 py-4 text-sm font-black transition-all ${fase === "menjawab" ? "bg-red-50 text-red-600 animate-pulse border border-red-100 shadow-lg shadow-red-500/10" : "bg-[#EAF5F7] text-[#64C7D4] border border-[#CDE5EA]"}`}>
                           {fase === "menjawab" ? <><span className="h-3 w-3 rounded-full bg-red-600"></span> SEDANG MEREKAM JAWABAN</> : "TAHAP PERSIAPAN"}
                         </div>
                         <p className="mt-8 text-xl font-bold text-[#667085]">
@@ -3750,7 +3750,7 @@ $practiceScripts = [
                     <h4><span>🎯</span> Fokus Penilaian</h4>
                     <div className="flex flex-wrap gap-2">
                       {simulasi.fokus.map(f => (
-                        <span key={f} className="bg-[#10204f] text-white text-[10px] font-black px-3 py-1.5 rounded-lg">✓ {f}</span>
+                        <span key={f} className="bg-[#102A43] text-white text-[10px] font-black px-3 py-1.5 rounded-lg">✓ {f}</span>
                       ))}
                     </div>
                   </div>
@@ -3767,8 +3767,8 @@ $practiceScripts = [
 
         if (view === "RESULT") {
           return (
-            <div className="fixed inset-0 z-[9999] flex flex-col items-center justify-center bg-[#10204f]/95 p-6 text-white backdrop-blur-xl">
-              <div className="w-full max-w-2xl max-h-[90vh] overflow-y-auto no-scrollbar rounded-[40px] bg-white text-[#10204f] shadow-2xl">
+            <div className="fixed inset-0 z-[9999] flex flex-col items-center justify-center bg-[#102A43]/95 p-6 text-white backdrop-blur-xl">
+              <div className="w-full max-w-2xl max-h-[90vh] overflow-y-auto no-scrollbar rounded-[40px] bg-white text-[#102A43] shadow-2xl">
                 <div className="p-8 md:p-12 text-center">
                   <div className="mx-auto mb-6 flex h-24 w-24 items-center justify-center rounded-full bg-green-100 text-5xl text-green-600 animate-bounce">✓</div>
                   <h2 className="text-4xl font-black tracking-tight mb-2">🎉 Simulasi Selesai!</h2>
@@ -3780,7 +3780,7 @@ $practiceScripts = [
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
-                    <div className="rounded-[32px] bg-[#f8fafc] border border-[#eef2f7] p-8 text-left">
+                    <div className="rounded-[32px] bg-[#f8fafc] border border-[#EAF5F7] p-8 text-left">
                       <div className="topic-label mb-6 text-center">Statistik Sesi</div>
                       <div className="grid grid-cols-2 gap-4">
                         <div className="score-item border-none bg-white p-4 rounded-2xl shadow-sm text-center">
@@ -3802,21 +3802,21 @@ $practiceScripts = [
                       </div>
                     </div>
                     
-                    <div className="streak-card flex flex-col justify-center items-center shadow-xl shadow-[#10204f]/20">
-                      <div className="text-sm font-black text-[#d2a06b] mb-4 uppercase tracking-widest">Level Speaking</div>
+                    <div className="streak-card flex flex-col justify-center items-center shadow-xl shadow-[#102A43]/20">
+                      <div className="text-sm font-black text-[#64C7D4] mb-4 uppercase tracking-widest">Level Speaking</div>
                       <div className="relative h-24 w-24 flex items-center justify-center mb-4">
                         <svg className="absolute inset-0 h-full w-full -rotate-90">
                           <circle cx="48" cy="48" r="40" stroke="rgba(255,255,255,0.1)" strokeWidth="8" fill="none" />
-                          <circle cx="48" cy="48" r="40" stroke="#d2a06b" strokeWidth="8" fill="none" strokeDasharray="251.2" strokeDashoffset={251.2 - (251.2 * 0.68)} strokeLinecap="round" />
+                          <circle cx="48" cy="48" r="40" stroke="#64C7D4" strokeWidth="8" fill="none" strokeDasharray="251.2" strokeDashoffset={251.2 - (251.2 * 0.68)} strokeLinecap="round" />
                         </svg>
                         <span className="text-2xl font-black">68%</span>
                       </div>
-                      <div className="bg-[#d2a06b] px-4 py-1 rounded-full text-[10px] font-black uppercase tracking-widest">+8% Naik</div>
+                      <div className="bg-[#64C7D4] px-4 py-1 rounded-full text-[10px] font-black uppercase tracking-widest">+8% Naik</div>
                     </div>
                   </div>
 
                   <div className="flex flex-col gap-4">
-                    <button className="btn btn-primary py-5 text-xl font-black shadow-xl shadow-[#d2a06b]/20" onClick={simpanRiwayat} disabled={isSaving || isSaved}>
+                    <button className="btn btn-primary py-5 text-xl font-black shadow-xl shadow-[#64C7D4]/20" onClick={simpanRiwayat} disabled={isSaving || isSaved}>
                       {isSaving ? 'Menyimpan...' : isSaved ? '✓ Tersimpan di Riwayat' : '💾 Simpan & Selesaikan'}
                     </button>
                     {isSaved && (
@@ -3846,21 +3846,21 @@ $practiceScripts = [
               <div className="control-box">
                 <div className="flex items-center justify-between mb-5">
                   <h3 className="m-0 text-sm font-black uppercase tracking-wider text-[#667085]">Pilih Jenis Simulasi</h3>
-                  {modeCepat && <span className="rounded-full bg-[#d2a06b] px-3 py-1 text-[10px] font-black text-white">RESPON CEPAT AKTIF</span>}
+                  {modeCepat && <span className="rounded-full bg-[#64C7D4] px-3 py-1 text-[10px] font-black text-white">RESPON CEPAT AKTIF</span>}
                 </div>
                 <div className="option-grid">
                   {simulasiPercakapan.map((item) => (
                     <button
                       key={item.id}
                       type="button"
-                      className={`option-card transition-all duration-300 ${!modeCepat && simulasi.id === item.id ? "active scale-[1.02] border-[#d2a06b] shadow-lg shadow-[#d2a06b]/10" : "hover:border-slate-300"}`}
+                      className={`option-card transition-all duration-300 ${!modeCepat && simulasi.id === item.id ? "active scale-[1.02] border-[#64C7D4] shadow-lg shadow-[#64C7D4]/10" : "hover:border-slate-300"}`}
                       onClick={() => { setSimulasi(item); setModeCepat(false); }}
                     >
                       <div className="text-2xl mb-2">{item.personaIcon}</div>
                       <strong className="text-sm font-black">{item.nama}</strong>
                     </button>
                   ))}
-                  <button type="button" className={`option-card transition-all duration-300 ${modeCepat ? "active scale-[1.02] border-[#d2a06b] shadow-lg shadow-[#d2a06b]/10" : "hover:border-slate-300"}`} onClick={() => setModeCepat(true)}>
+                  <button type="button" className={`option-card transition-all duration-300 ${modeCepat ? "active scale-[1.02] border-[#64C7D4] shadow-lg shadow-[#64C7D4]/10" : "hover:border-slate-300"}`} onClick={() => setModeCepat(true)}>
                     <div className="text-2xl mb-2">⚡</div>
                     <strong className="text-sm font-black">Respon Cepat</strong>
                   </button>
@@ -3875,7 +3875,7 @@ $practiceScripts = [
                       <button
                         key={item.nama}
                         type="button"
-                        className={`flex-1 rounded-xl py-3 text-sm font-black transition-all ${level.nama === item.nama ? "bg-[#10204f] text-white shadow-lg shadow-[#10204f]/20" : "bg-white text-slate-500 ring-1 ring-slate-200 hover:ring-slate-300"}`}
+                        className={`flex-1 rounded-xl py-3 text-sm font-black transition-all ${level.nama === item.nama ? "bg-[#102A43] text-white shadow-lg shadow-[#102A43]/20" : "bg-white text-slate-500 ring-1 ring-slate-200 hover:ring-slate-300"}`}
                         onClick={() => setLevel(item)}
                       >
                         {item.nama}
@@ -3884,19 +3884,19 @@ $practiceScripts = [
                   </div>
                 </div>
 
-                <div className="rounded-[40px] border border-[#f2d7b8] bg-[#fffaf3] p-10 shadow-sm relative overflow-hidden">
+                <div className="rounded-[40px] border border-[#CDE5EA] bg-[#EAF5F7] p-10 shadow-sm relative overflow-hidden">
                   <div className="relative z-10">
                     <div className="flex items-center gap-5 mb-8">
-                      <div className="h-16 w-16 rounded-3xl bg-[#d2a06b] flex items-center justify-center text-white text-3xl shadow-xl shadow-[#d2a06b]/20">{modeCepat ? '⚡' : simulasi.personaIcon}</div>
+                      <div className="h-16 w-16 rounded-3xl bg-[#64C7D4] flex items-center justify-center text-white text-3xl shadow-xl shadow-[#64C7D4]/20">{modeCepat ? '⚡' : simulasi.personaIcon}</div>
                       <div>
-                        <div className="text-[10px] font-black uppercase tracking-[0.2em] text-[#d2a06b] mb-1">Simulasi Briefing</div>
-                        <h3 className="text-2xl font-black text-[#10204f] uppercase tracking-tight m-0">{modeCepat ? "Tantangan Respon Cepat" : simulasi.nama}</h3>
+                        <div className="text-[10px] font-black uppercase tracking-[0.2em] text-[#64C7D4] mb-1">Simulasi Briefing</div>
+                        <h3 className="text-2xl font-black text-[#102A43] uppercase tracking-tight m-0">{modeCepat ? "Tantangan Respon Cepat" : simulasi.nama}</h3>
                       </div>
                     </div>
                     
                     <div className="mb-8">
                       <div className="text-[10px] font-black text-[#667085] uppercase tracking-widest mb-3">Tujuan Latihan</div>
-                      <p className="text-base font-bold leading-relaxed text-[#10204f]">
+                      <p className="text-base font-bold leading-relaxed text-[#102A43]">
                         {modeCepat 
                           ? "Latih spontanitas maksimal dengan menjawab pertanyaan acak dalam waktu terbatas."
                           : `Anda akan mengikuti simulasi ${simulasi.nama.toLowerCase()}. Jawablah setiap pertanyaan dari ${simulasi.persona} secara terstruktur and profesional.`}
@@ -3907,7 +3907,7 @@ $practiceScripts = [
                       <div className="text-[10px] font-black text-[#667085] uppercase tracking-widest mb-4">Target Kompetensi</div>
                       <div className="flex flex-wrap gap-2">
                         {(modeCepat ? ["Spontanitas", "Kecepatan", "Improvisasi", "Ketajaman"] : simulasi.fokus).map(f => (
-                          <span key={f} className="rounded-xl bg-white border border-[#f2d7b8] px-4 py-2 text-xs font-black text-[#10204f]">✓ {f}</span>
+                          <span key={f} className="rounded-xl bg-white border border-[#CDE5EA] px-4 py-2 text-xs font-black text-[#102A43]">✓ {f}</span>
                         ))}
                       </div>
                     </div>
@@ -3915,21 +3915,21 @@ $practiceScripts = [
                     <div className="mb-10 grid grid-cols-3 gap-4">
                       <div className="text-center">
                         <span className="text-[10px] font-black text-[#667085] uppercase block mb-1">Pertanyaan</span>
-                        <strong className="text-xl text-[#10204f]">{currentRules.jumlah}</strong>
+                        <strong className="text-xl text-[#102A43]">{currentRules.jumlah}</strong>
                       </div>
-                      <div className="text-center border-x border-[#f2d7b8]">
+                      <div className="text-center border-x border-[#CDE5EA]">
                         <span className="text-[10px] font-black text-[#667085] uppercase block mb-1">Persiapan</span>
-                        <strong className="text-xl text-[#10204f]">{currentRules.persiapan}s</strong>
+                        <strong className="text-xl text-[#102A43]">{currentRules.persiapan}s</strong>
                       </div>
                       <div className="text-center">
                         <span className="text-[10px] font-black text-[#667085] uppercase block mb-1">Menjawab</span>
-                        <strong className="text-xl text-[#10204f]">{currentRules.jawab}s</strong>
+                        <strong className="text-xl text-[#102A43]">{currentRules.jawab}s</strong>
                       </div>
                     </div>
 
                     <div className="space-y-4">
                       <button 
-                        className="btn btn-primary w-full py-5 text-2xl font-black shadow-2xl shadow-[#d2a06b]/40 hover:scale-[1.02] active:scale-[0.98] transition-all"
+                        className="btn btn-primary w-full py-5 text-2xl font-black shadow-2xl shadow-[#64C7D4]/40 hover:scale-[1.02] active:scale-[0.98] transition-all"
                         onClick={startSimulationFlow}
                       >
                         🎯 MULAI SIMULASI
@@ -4242,8 +4242,8 @@ $practiceScripts = [
           <section className="camera-card p-6">
             <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
               <div>
-                <div className="text-sm font-black uppercase tracking-wide text-[#d2a06b]">Camera Speaking Practice</div>
-                <h2 className="mt-2 text-3xl font-extrabold text-[#10204f]">Latihan dengan webcam</h2>
+                <div className="text-sm font-black uppercase tracking-wide text-[#64C7D4]">Camera Speaking Practice</div>
+                <h2 className="mt-2 text-3xl font-extrabold text-[#102A43]">Latihan dengan webcam</h2>
                 <p className="mt-2 text-sm font-semibold leading-6 text-[#667085]">Latih ekspresi, eye contact, body language, and confidence langsung dari browser.</p>
               </div>
               <div className="flex flex-wrap gap-3">
@@ -4261,10 +4261,10 @@ $practiceScripts = [
                 key={mode.name}
                 type="button"
                 onClick={() => setActiveMode(mode)}
-                className={`camera-card interactive p-5 text-left transition ${activeMode.name === mode.name ? "border-[#d2a06b] bg-[#fffaf3]" : ""}`}
+                className={`camera-card interactive p-5 text-left transition ${activeMode.name === mode.name ? "border-[#64C7D4] bg-[#EAF5F7]" : ""}`}
               >
-                <div className="text-sm font-black uppercase tracking-wide text-[#d2a06b]">Simulation</div>
-                <h3 className="mt-2 text-xl font-extrabold text-[#10204f]">{mode.name}</h3>
+                <div className="text-sm font-black uppercase tracking-wide text-[#64C7D4]">Simulation</div>
+                <h3 className="mt-2 text-xl font-extrabold text-[#102A43]">{mode.name}</h3>
                 <p className="mt-2 text-sm font-semibold leading-6 text-[#667085]">{mode.objective}</p>
               </button>
             ))}
@@ -4275,8 +4275,8 @@ $practiceScripts = [
               <div className="border-b border-[#e5e7eb] p-6">
                 <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
                   <div>
-                    <div className="text-sm font-black uppercase tracking-wide text-[#d2a06b]">Topic Prompt</div>
-                    <h3 className="mt-2 text-2xl font-extrabold leading-snug text-[#10204f]">{topic}</h3>
+                    <div className="text-sm font-black uppercase tracking-wide text-[#64C7D4]">Topic Prompt</div>
+                    <h3 className="mt-2 text-2xl font-extrabold leading-snug text-[#102A43]">{topic}</h3>
                   </div>
                   <div className="flex flex-wrap items-center gap-2">
                     <div className={`camera-status-pill ${cameraReady ? "live" : ""}`}>
@@ -4295,8 +4295,8 @@ $practiceScripts = [
               </div>
 
               <div className="grid gap-6 p-6 lg:grid-cols-[minmax(0,1fr)_240px]">
-                <div className={`relative overflow-hidden rounded-[18px] bg-[#10204f] transition duration-300 ${isRecording ? "recording-glow" : ""}`}>
-                  <video ref={liveVideoRef} className="aspect-video w-full bg-[#10204f] object-cover" autoPlay muted playsInline></video>
+                <div className={`relative overflow-hidden rounded-[18px] bg-[#102A43] transition duration-300 ${isRecording ? "recording-glow" : ""}`}>
+                  <video ref={liveVideoRef} className="aspect-video w-full bg-[#102A43] object-cover" autoPlay muted playsInline></video>
                   <div className="pointer-events-none absolute left-4 top-4 flex items-center gap-2 rounded-full bg-black/35 px-3 py-2 text-xs font-black uppercase tracking-wide text-white">
                     {isRecording && <span className="recording-dot"></span>}
                     {recordingStatus}
@@ -4315,11 +4315,11 @@ $practiceScripts = [
                 <div className="space-y-4">
                   <div className="rounded-[18px] border border-[#e5e7eb] bg-[#fbfbfd] p-5">
                     <div className="text-sm font-extrabold text-[#667085]">Speaking Timer</div>
-                    <div className="mt-2 text-6xl font-black tracking-tight text-[#10204f]">{formatCameraTime(remainingTime)}</div>
+                    <div className="mt-2 text-6xl font-black tracking-tight text-[#102A43]">{formatCameraTime(remainingTime)}</div>
                     <div className="mt-4 h-3 overflow-hidden rounded-full bg-[#e5e7eb]">
-                      <div className="h-full rounded-full bg-[#d2a06b] transition-all" style={{ width: `${progress}%` }}></div>
+                      <div className="h-full rounded-full bg-[#64C7D4] transition-all" style={{ width: `${progress}%` }}></div>
                     </div>
-                    <div className="mt-3 text-xs font-black uppercase tracking-wide text-[#d2a06b]">{recordingStatus}</div>
+                    <div className="mt-3 text-xs font-black uppercase tracking-wide text-[#64C7D4]">{recordingStatus}</div>
                   </div>
 
                   <div className="rounded-[18px] border border-[#e5e7eb] bg-[#fbfbfd] p-5">
@@ -4336,7 +4336,7 @@ $practiceScripts = [
                           }}
                           className={`rounded-xl px-4 py-2 text-sm font-extrabold transition ${
                             selectedDuration === duration.seconds
-                              ? "bg-[#d2a06b] text-white"
+                              ? "bg-[#64C7D4] text-white"
                               : "bg-white text-[#344054] ring-1 ring-[#d0d5dd]"
                           }`}
                         >
@@ -4350,13 +4350,13 @@ $practiceScripts = [
 
               <div className="flex flex-col gap-4 border-t border-[#e5e7eb] p-6 lg:flex-row lg:items-center lg:justify-between">
                 <div>
-                  <div className="text-sm font-black uppercase tracking-wide text-[#d2a06b]">Instruction</div>
+                  <div className="text-sm font-black uppercase tracking-wide text-[#64C7D4]">Instruction</div>
                   <p className="mt-1 max-w-2xl text-sm font-semibold leading-6 text-[#667085]">{instruction}</p>
                   <div className="mt-3 grid gap-2 md:grid-cols-2">
                     <div className="rounded-2xl bg-[#f8fafc] px-4 py-3 text-sm font-bold text-[#344054] ring-1 ring-[#e5e7eb]">
                       Objective: {activeMode.objective}
                     </div>
-                    <div className="rounded-2xl bg-[#fffaf3] px-4 py-3 text-sm font-bold text-[#7c4a12] ring-1 ring-[#f2d7b8]">
+                    <div className="rounded-2xl bg-[#EAF5F7] px-4 py-3 text-sm font-bold text-[#245B7A] ring-1 ring-[#CDE5EA]">
                       Tip: {speakingTip}
                     </div>
                   </div>
@@ -4364,7 +4364,7 @@ $practiceScripts = [
                 <div className="flex flex-wrap gap-3">
                   <button type="button" className="camera-btn btn-primary-camera start-recording-cta" onClick={startRecording} disabled={isRecording}>Start Recording</button>
                   <button type="button" className="camera-btn btn-danger-camera" onClick={stopRecording} disabled={!isRecording}>Stop Recording</button>
-                  <button type="button" className="camera-btn btn-primary-camera" onClick={saveCameraPractice} disabled={!recordedUrl || isRecording || isSaving || isSaved} style={{ background: '#10204f' }}>💾 Simpan Riwayat</button>
+                  <button type="button" className="camera-btn btn-primary-camera" onClick={saveCameraPractice} disabled={!recordedUrl || isRecording || isSaving || isSaved} style={{ background: '#102A43' }}>💾 Simpan Riwayat</button>
                   <button type="button" className="camera-btn btn-primary-camera" onClick={submitToMentor} disabled={!isSaved || isSubmitted} style={{ background: '#027a48' }}>📤 Kirim ke Mentor</button>
                 </div>
               </div>
@@ -4379,9 +4379,9 @@ $practiceScripts = [
 
             <aside className="space-y-6">
               <div className="camera-card p-6">
-                <h2 className="text-2xl font-extrabold text-[#10204f]">Replay Result</h2>
+                <h2 className="text-2xl font-extrabold text-[#102A43]">Replay Result</h2>
                 <p className="mt-2 text-sm font-semibold leading-6 text-[#667085]">{recordedUrl ? "Putar ulang hasil rekaman terakhir." : "Hasil recording akan muncul di sini."}</p>
-                <div className="mt-5 overflow-hidden rounded-[18px] bg-[#10204f]">
+                <div className="mt-5 overflow-hidden rounded-[18px] bg-[#102A43]">
                   {recordedUrl ? (
                     <video ref={replayVideoRef} className="aspect-video w-full object-cover" src={recordedUrl} controls></video>
                   ) : (
@@ -4391,7 +4391,7 @@ $practiceScripts = [
               </div>
 
               <div className="camera-card p-6">
-                <h2 className="text-2xl font-extrabold text-[#10204f]">Practice Focus</h2>
+                <h2 className="text-2xl font-extrabold text-[#102A43]">Practice Focus</h2>
                 <div className="mt-4 grid gap-3">
                   {focusItems.map((item) => (
                     <button
@@ -4402,7 +4402,7 @@ $practiceScripts = [
                         focusProgress[item]
                           ? "bg-[#ecfdf3] text-[#027a48] ring-[#abefc6]"
                           : isRecording
-                            ? "bg-[#fffaf3] text-[#7c4a12] ring-[#f2d7b8]"
+                            ? "bg-[#EAF5F7] text-[#245B7A] ring-[#CDE5EA]"
                             : "bg-[#f8fafc] text-[#344054] ring-[#e5e7eb]"
                       }`}
                     >
@@ -4414,19 +4414,19 @@ $practiceScripts = [
               </div>
 
               <div className="camera-card p-6">
-                <h2 className="text-2xl font-extrabold text-[#10204f]">Daily Challenge</h2>
+                <h2 className="text-2xl font-extrabold text-[#102A43]">Daily Challenge</h2>
                 <p className="mt-2 text-sm font-semibold leading-6 text-[#667085]">Selesaikan 1 rekaman camera practice hari ini untuk mendapatkan 120 XP.</p>
                 <div className="mt-4 h-3 overflow-hidden rounded-full bg-[#e5e7eb]">
-                  <div className="h-full w-[68%] rounded-full bg-[#d2a06b]"></div>
+                  <div className="h-full w-[68%] rounded-full bg-[#64C7D4]"></div>
                 </div>
-                <div className="mt-3 text-sm font-black text-[#d2a06b]">68% menuju target harian</div>
+                <div className="mt-3 text-sm font-black text-[#64C7D4]">68% menuju target harian</div>
               </div>
             </aside>
           </section>
 
           <section className="camera-card p-6">
             <div className="mb-5">
-              <h2 className="text-2xl font-extrabold text-[#10204f]">History Camera Practice</h2>
+              <h2 className="text-2xl font-extrabold text-[#102A43]">History Camera Practice</h2>
               <p className="mt-1 text-sm font-semibold text-[#667085]">Riwayat latihan camera practice yang tersimpan di akun.</p>
             </div>
 
@@ -4438,17 +4438,17 @@ $practiceScripts = [
               <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
                 {history.map((item) => (
                   <article key={item.id} className="camera-card interactive rounded-[18px] border border-[#e5e7eb] bg-[#fbfbfd] p-4">
-                    <div className="history-video-card relative overflow-hidden rounded-2xl bg-[#10204f]">
+                    <div className="history-video-card relative overflow-hidden rounded-2xl bg-[#102A43]">
                       {item.videoUrl ? (
                         <video className="aspect-video w-full object-cover" src={item.videoUrl} controls></video>
                       ) : (
                         <div className="flex aspect-video items-center justify-center px-4 text-center text-sm font-bold text-white/75">Video tidak tersedia</div>
                       )}
                     </div>
-                    <h3 className="mt-4 text-base font-extrabold leading-snug text-[#10204f]">{item.topic}</h3>
+                    <h3 className="mt-4 text-base font-extrabold leading-snug text-[#102A43]">{item.topic}</h3>
                     <div className="mt-3 flex flex-wrap gap-2">
-                      <span className="rounded-full bg-[#eef2f7] px-3 py-1 text-xs font-black text-[#344054]">{item.date}</span>
-                      <span className="rounded-full bg-[#fffaf3] px-3 py-1 text-xs font-black text-[#7c4a12]">{formatCameraTime(item.duration)}</span>
+                      <span className="rounded-full bg-[#EAF5F7] px-3 py-1 text-xs font-black text-[#344054]">{item.date}</span>
+                      <span className="rounded-full bg-[#EAF5F7] px-3 py-1 text-xs font-black text-[#245B7A]">{formatCameraTime(item.duration)}</span>
                       <span className="rounded-full bg-[#ecfdf3] px-3 py-1 text-xs font-black text-[#027a48]">{item.confidence}</span>
                     </div>
                   </article>

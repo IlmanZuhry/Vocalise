@@ -149,7 +149,7 @@ $ebooks = $app->getEbooks();
         }
 
         .field input:focus {
-            border-color: #1c407a;
+            border-color: #245B7A;
             box-shadow: 0 0 0 3px rgb(28 64 122 / 0.14);
         }
 
@@ -190,7 +190,7 @@ $ebooks = $app->getEbooks();
         }
 
         .ebook-item h2 {
-            color: #10204f;
+            color: #102A43;
             font-size: 20px;
             margin: 0 0 6px;
         }
@@ -207,8 +207,8 @@ $ebooks = $app->getEbooks();
         }
 
         .admin-button.secondary {
-            background: #eef2f7;
-            color: #10204f;
+            background: #EAF5F7;
+            color: #102A43;
         }
 
         .admin-button.danger {

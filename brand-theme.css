@@ -84,11 +84,11 @@ main { background-color: var(--vocalise-ice); }
 .modal-content, article.post, .ebook-card, .material-card { background: var(--vocalise-white) !important; }
 .profile-avatar, .profile-photo, .profile-image, .modal-avatar { border-color: var(--vocalise-cyan) !important; }
 .avatar-preview, .banner-avatar-default,
-div[style*="border:5px solid #d2a06b"] { border-color: var(--vocalise-cyan) !important; }
+div[style*="border:5px solid #64C7D4"] { border-color: var(--vocalise-cyan) !important; }
 .banner-avatar-default { background: var(--vocalise-blue) !important; }
 #btnEditProfil { background: var(--vocalise-blue) !important; }
 #btnEditProfil:hover { background: var(--vocalise-midnight) !important; }
-p[style*="color:#d2a06b"] { color: var(--vocalise-cyan) !important; }
+p[style*="color:#64C7D4"] { color: var(--vocalise-cyan) !important; }
 
 /* Admin dashboard gradients and emphasis */
 .dashboard-hero, .summary-banner { background: var(--vocalise-gradient) !important; }
@@ -127,11 +127,11 @@ body:has(.landing-page), body:has(.hero-section) { background: var(--vocalise-wh
 }
 
 /* Tailwind utility colours used by the practice interface. */
-[class~="bg-[#10204f]"], [class~="bg-[#0e1e4d]"] { background-color: var(--vocalise-midnight) !important; }
-[class~="bg-[#d2a06b]"] { background-color: var(--vocalise-cyan) !important; }
-[class~="bg-[#f8fafc]"], [class~="bg-[#fffaf3]"] { background-color: var(--vocalise-ice) !important; }
-[class~="text-[#10204f]"], [class~="text-[#0e1e4d]"] { color: var(--vocalise-midnight) !important; }
-[class~="text-[#d2a06b]"] { color: var(--vocalise-blue) !important; }
+[class~="bg-[#102A43]"], [class~="bg-[#102A43]"] { background-color: var(--vocalise-midnight) !important; }
+[class~="bg-[#64C7D4]"] { background-color: var(--vocalise-cyan) !important; }
+[class~="bg-[#f8fafc]"], [class~="bg-[#EAF5F7]"] { background-color: var(--vocalise-ice) !important; }
+[class~="text-[#102A43]"], [class~="text-[#102A43]"] { color: var(--vocalise-midnight) !important; }
+[class~="text-[#64C7D4]"] { color: var(--vocalise-blue) !important; }
 [class~="text-[#667085]"], [class~="text-[#344054]"] { color: var(--vocalise-muted) !important; }
-[class~="border-[#d2a06b]"], [class~="border-[#f2d7b8]"] { border-color: var(--vocalise-cyan) !important; }
-[class~="border-[#e5e7eb]"], [class~="border-[#eef2f7]"], [class~="border-[#cbd5e1]"] { border-color: var(--vocalise-border) !important; }
+[class~="border-[#64C7D4]"], [class~="border-[#CDE5EA]"] { border-color: var(--vocalise-cyan) !important; }
+[class~="border-[#e5e7eb]"], [class~="border-[#EAF5F7]"], [class~="border-[#cbd5e1]"] { border-color: var(--vocalise-border) !important; }
