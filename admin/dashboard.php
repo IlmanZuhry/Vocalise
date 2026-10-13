@@ -119,7 +119,7 @@ function mentorScoreValue($submission, $key, $fallback = 75) {
 
         .hero-text p {
             font-size: 17px;
-            color: #d2a06b;
+            color: #64C7D4;
             margin: 0 0 22px;
             line-height: 1.5;
         }

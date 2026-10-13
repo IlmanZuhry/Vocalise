@@ -160,13 +160,13 @@ function scoreColor($score) {
     }
 
     .filter-tab.active {
-      border-color: #d2a06b;
-      background: #fffaf3;
-      color: #10204f;
+      border-color: #64C7D4;
+      background: #EAF5F7;
+      color: #102A43;
     }
 
     .filter-tab:hover {
-      border-color: #d2a06b;
+      border-color: #64C7D4;
     }
 
     .results-list {
