@@ -439,8 +439,8 @@ $practiceScripts = [
     }
 
     .feature-card.active {
-      border-color: #d2a06b;
-      background: #fffaf3;
+      border-color: #64C7D4;
+      background: #EAF5F7;
     }
 
     .feature-card:hover {

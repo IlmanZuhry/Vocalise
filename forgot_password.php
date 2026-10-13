@@ -95,8 +95,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="login-container">
         <div class="login-left">
             <div class="brand">
-                <img src="assets/ayooo.png" class="brand-logo" alt="Logo">
-                <span class="brand-text"><span class="talk">TALK</span><span class="lab">LAB</span></span>
+                <img src="assets/logo_voca.png" class="brand-logo" alt="Logo">
+                <span class="brand-text"><span class="talk">Voca</span><span class="lab">lise</span></span>
             </div>
             <div class="hero-illustration"><div class="circle-border"><img src="assets/log.png" class="character" alt="Character"></div></div>
             <h2 class="hero-title">Siap bicara dengan percaya diri?</h2>
