@@ -1,0 +1,278 @@
+/* LAYOUT UTAMA */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #eaeaea;
+}
+
+.login-container {
+    display: flex;
+    min-height: 100vh;
+    height: auto;
+}
+
+/* PANEL KIRI */
+.login-left {
+    width: 50%;
+    background: #10204f;
+    padding: 50px;
+    position: relative;
+    color: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-right {
+    width: 50%;
+    padding: 60px;
+    background: white;
+}
+
+.logo {
+    width: 160px;
+    margin-bottom: 30px;
+}
+
+
+.hero-illustration {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.circle-border {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 8px solid #B9915F;
+    display: flex;
+    align-items: center;
+    margin-top: -60px;
+    justify-content: center;
+}
+
+.character {
+    width: 300px;
+    height: auto;
+}
+
+
+.hero-title {
+    text-align: center;
+    font-size: 42px;
+    margin-top: 25px;
+    font-weight: 600;
+    font-family: poppins, sans-serif;
+}
+
+.hero-subtitle {
+    text-align: center;
+    color: #dcdcdc;
+    margin-top: 5px;
+    font-size: 28px;
+}
+
+
+.ornament {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    background: #B9915F;
+    border-radius: 50%;
+
+}
+
+.bottom-left {
+    bottom: -80px;
+    left: -80px;
+}
+
+.top-right {
+    top: -80px;
+    right: -80px;
+}
+
+
+
+.login-right {
+    width: 50%;
+    background: #fff;
+    padding: 90px 100px;
+    margin-top: -90px;
+}
+
+.login-right h1 {
+    font-size: 32px;
+    margin-bottom: 2px;
+}
+
+.login-right p {
+    color: #444;
+    margin-bottom: 15px;
+}
+
+
+form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+form input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 18px 22px;
+    font-size: 17px;
+    border-radius: 35px;
+    border: 1px solid #bbbbbb;
+    background: #fafafa;
+    margin-bottom: 22px;
+    outline: none;
+    transition: 0.2s;
+}
+
+.form-wrapper {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.password-wrapper {
+    position: relative;
+}
+
+form input:focus {
+    border-color: #10204f;
+    background: #ffffff;
+    box-shadow: 0 0 0 3px rgba(16, 32, 79, 0.1);
+}
+
+.password-wrapper {
+    position: relative;
+}
+
+.eye-toggle {
+    position: absolute;
+    right: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.lost-password {
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.btn-login {
+    width: 70%;
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    background: #0f1f4d;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.register-text {
+    text-align: center;
+    margin-top: 12px;
+}
+
+.register-text a {
+    color: #0f1f4d;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.brand-logo {
+    width: 140px;
+}
+
+.brand-text {
+    font-size: 37px;
+    letter-spacing: 1px;
+
+}
+
+.brand-text .talk {
+    color: white;
+}
+
+.brand-text .lab {
+    color: #B9915F;
+}
+
+
+
+.login-options {
+    margin-top: 25px;
+}
+
+.btn-social {
+    width: 60%;
+    padding: 12px 20px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    background: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+}
+
+
+.btn-social .social-icon {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+
+    position: absolute;
+    left: 20px;
+}
+
+
+
+.btn-social:hover {
+    background: #f1f1f1;
+}
+
+.eye-toggle {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-75%);
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    opacity: 0.75;
+    transition: 0.2s;
+    margin: auto;
+}
+
+.eye-toggle:hover {
+    opacity: 1;
+}
